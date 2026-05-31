@@ -1,7 +1,11 @@
 #!/bin/bash
+exit
+
+rm -rf gene drug
 
 #Train on CREEDS
 for pert in gene drug; do
+mkdir $pert
 mkdir $pert/CREEDS_models $pert/CREEDS_checkpoint_predictions $pert/creedstrain_smctest_checkpoint_predictions
 for split in $(ls ../import/target/$pert/CREEDS_training_datasets | cut -d. -f1 | sort -u); do
 python3 ../src/target_finetune.py ../import/target/$pert/CREEDS_training_datasets/$split.json $pert/CREEDS_models/$split microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext 15
@@ -26,7 +30,6 @@ done
 rm -r */SNACKKSS_MC_models/*/checkpoint-*
 
 #Do a formal comparison.
-#Performance while training on CREEDS
 for pert in gene drug; do
 if [ $(echo $pert | grep gene | wc -l) -gt 0 ]; then label=GENE
 else label=CHEM; fi

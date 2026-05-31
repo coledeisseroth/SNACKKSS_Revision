@@ -1,4 +1,5 @@
 #!/bin/bash
+exit
 
 rm -rf gene drug
 
@@ -8,7 +9,7 @@ mkdir -p $pert
 hfmodel='microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext'
 mkdir $pert/CREEDS_models $pert/CREEDS_checkpoint_predictions $pert/creedstrain_smctest_checkpoint_predictions
 for split in $(ls ../import/study/$pert/CREEDS_training_datasets | cut -d. -f1 | sort -u); do
-python3 ../src/text_classification_finetune.py ../import/study/$pert/CREDS_training_datasets/$split.json $pert/CREEDS_models/$split $hfmodel 392
+python3 ../src/text_classification_finetune.py ../import/study/$pert/CREEDS_training_datasets/$split.json $pert/CREEDS_models/$split $hfmodel 392
 for ckpt in $(ls $pert/CREEDS_models/$split | grep checkpoint); do
 python3 ../src/text_classification_predict.py $pert/CREEDS_models/$split/$ckpt ../import/study/$pert/CREEDS_testing_datasets/$split.txt > $pert/CREEDS_checkpoint_predictions/${split}_$ckpt.txt
 python3 ../src/text_classification_predict.py $pert/CREEDS_models/$split/$ckpt ../import/study/$pert/SNACKKSS_MC_testing_datasets/$split.txt > $pert/creedstrain_smctest_checkpoint_predictions/${split}_$ckpt.txt

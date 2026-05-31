@@ -1,11 +1,14 @@
 #!/bin/bash
+exit
+
+rm -rf gene drug
 
 #Train on CREEDS
 for pert in gene drug; do
 mkdir $pert
 mkdir $pert/CREEDS_models $pert/CREEDS_checkpoint_predictions $pert/creedstrain_smctest_checkpoint_predictions
 for split in $(ls ../import/sample/$pert/CREEDS_training_datasets | cut -d. -f1 | sort -u); do
-python3 ../src/text_classification_finetune.py $pert/CREEDS_training_datasets/$split.json $pert/CREEDS_models/$split microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext 1930
+python3 ../src/text_classification_finetune.py ../import/sample/$pert/CREEDS_training_datasets/$split.json $pert/CREEDS_models/$split microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext 1930
 for ckpt in $(ls $pert/CREEDS_models/$split | grep checkpoint); do
 python3 ../src/text_classification_predict.py $pert/CREEDS_models/$split/$ckpt ../import/sample/$pert/CREEDS_testing_datasets/$split.txt > $pert/CREEDS_checkpoint_predictions/${split}_$ckpt.txt
 python3 ../src/text_classification_predict.py $pert/CREEDS_models/$split/$ckpt ../import/sample/$pert/SNACKKSS_MC_testing_datasets/$split.txt > $pert/creedstrain_smctest_checkpoint_predictions/${split}_$ckpt.txt
@@ -20,7 +23,7 @@ mkdir $pert/SNACKKSS_MC_models $pert/SNACKKSS_MC_checkpoint_predictions
 for split in $(ls $pert/CREEDS_models | sort -u); do
 python3 ../src/text_classification_finetune.py ../import/sample/$pert/SNACKKSS_MC_training_datasets/$split.json $pert/SNACKKSS_MC_models/$split $pert/CREEDS_models/$split 630
 for ckpt in $(ls $pert/SNACKKSS_MC_models/$split | grep checkpoint); do
-python3 ../src/text_classification_predict.py $pert/SNACKKSS_MC_models/$split/$ckpt ../import/sample/SNACKKSS_MC_testing_datasets/$split.txt > $pert/SNACKKSS_MC_checkpoint_predictions/${split}_${ckpt}.txt
+python3 ../src/text_classification_predict.py $pert/SNACKKSS_MC_models/$split/$ckpt ../import/sample/$pert/SNACKKSS_MC_testing_datasets/$split.txt > $pert/SNACKKSS_MC_checkpoint_predictions/${split}_${ckpt}.txt
 done
 done
 done
