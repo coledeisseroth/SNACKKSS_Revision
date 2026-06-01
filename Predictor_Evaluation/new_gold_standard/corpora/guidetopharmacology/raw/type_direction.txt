@@ -1,0 +1,6 @@
+Activator	1
+Agonist	1
+Antagonist	-1
+Channel blocker	-1
+Gating inhibitor	-1
+Inhibitor	-1

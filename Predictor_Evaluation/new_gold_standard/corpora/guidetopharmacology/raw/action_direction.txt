@@ -1,0 +1,16 @@
+Activation	1
+Agonist	1
+Antagonist	1
+Biased agonist	1
+Competitive	-1
+Feedback inhibition	-1
+Full agonist	1
+Inhibition	-1
+Inverse agonist	-1
+Irreversible inhibition	-1
+Negative	-1
+Pore blocker	-1
+Positive	1
+Potentiation	1
+Slows inactivation	1
+Voltage-dependent inhibition	-1

@@ -1,5 +1,4 @@
 #!/bin/bash
-exit
 
 rm -rf gene drug
 

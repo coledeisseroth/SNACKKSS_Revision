@@ -1,3 +1,5 @@
+exit
+
 #Plot accuracy against coverage for all predictors
 (for file in $(ls ../import/SNACKKSS/output_stats | grep _accuracy.txt); do for col in $(seq $(cat ../import/SNACKKSS/output_stats/$file | head -1 | awk 'BEGIN {FS = "\t"}{print int(NF / 2)}') | awk '{print $1*2}'); do head -1 ../import/SNACKKSS/output_stats/$file | cut -f$col | awk '{print "'$file' "$0}' | sed 's/_accuracy.txt//g' | sed 's/ true//g' | sed 's/Gene/gene/g' | sed 's/Drug/drug/g' | sed 's/_/ /g'; done; done | paste -sd$'\t' | awk '{print "\t" $0}'
 for acc in $(seq 0 999 | awk '{print $1 / 1000}'); do (echo $acc; for file in $(ls ../import/SNACKKSS/output_stats | grep _accuracy.txt); do for col in $(seq $(cat ../import/SNACKKSS/output_stats/$file | head -1 | awk 'BEGIN {FS = "\t"}{print int(NF / 2)}') | awk '{print $1*2}'); do cat ../import/SNACKKSS/output_stats/$file | cut -f$col,$(echo $col | awk '{print $1 + 1}') | awk 'BEGIN {print 0} {if($1 + $2 == 0){next} else if($1 / ($1+$2) > '$acc'){print}}' | cut -f1 | sort -gr | head -1; done; done) | paste -sd$'\t'; done) > accuracy_vs_coverage.txt
