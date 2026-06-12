@@ -59,8 +59,10 @@ if [ $(echo $db | grep ConnectivityMap | wc -l) -gt 0 ]; then predspref=id_$pred
 for sign in pos neg; do
 sgn='>'
 if [ $(echo $sign | grep neg | wc -l) -gt 0 ]; then sgn='<'; fi
+pertsign='+'
+if [ $(echo $pert | grep drug | wc -l) -gt 0 ]; then pertsign='-'; fi
 champ=$(cat signature_based_optima.txt | awk '$1 == "'$db'" && $2 == "default" && $3 == "'$pert'" && $4 == "'$preds'" && $5 == "'$sign'" {print $6}')
-cat ~/SNACKKSS_Eval/$db/default/$predspref/$pert/$champ.txt | awk '$3 '$sgn' 0 {print $1 "_" $2 "\t" $3}' | sort -t$'\t' -k1,1 | join -t$'\t' - <(cat $groundtruth | awk '{print $1 "_" $2 "\t" $3}' | sort -t$'\t' -k1,1) | cut -f2- | awk 'BEGIN {FS = "\t"} {print 0.5 + (0.5 * $1 * $2 / sqrt($1^2)) "\t" sqrt($1^2)}' | sort -k2,2gr | awk 'BEGIN {FS = "\t"; p = 0; n = 0; cur = ""} {if(cur != "" && cur != $2){print cur "\t" p/(p+n+1)} cur = $2; if($1 == 1){p++} else{n++}} END {print "0\t" p / (p+n+1)}' | sort -k1,1g -k2,2gr | awk 'BEGIN {FS = "\t"; cur = 0} $2 > cur{print; cur = $2}' > $db/${pert}_${preds}_${sign}_scoretable.txt
+cat ~/SNACKKSS_Eval/$db/default/$predspref/$pert/$champ.txt | awk '$3 '$sgn' 0 {print $1 "_" $2 "\t" $3}' | sort -t$'\t' -k1,1 | join -t$'\t' - <(cat $groundtruth | awk '{print $1 "_" $2 "\t" $3}' | sort -t$'\t' -k1,1) | cut -f2- | awk 'BEGIN {FS = "\t"} {print 0.5 '$pertsign' (0.5 * $1 * $2 / sqrt($1^2)) "\t" sqrt($1^2)}' | sort -k2,2gr | awk 'BEGIN {FS = "\t"; p = 0; n = 0; cur = ""} {if(cur != "" && cur != $2){print cur "\t" p/(p+n+1)} cur = $2; if($1 == 1){p++} else{n++}} END {print "0\t" p / (p+n+1)}' | sort -k1,1g -k2,2gr | awk 'BEGIN {FS = "\t"; cur = 0} $2 > cur{print; cur = $2}' > $db/${pert}_${preds}_${sign}_scoretable.txt
 done
 done
 done

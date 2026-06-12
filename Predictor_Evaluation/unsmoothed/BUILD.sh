@@ -1,10 +1,6 @@
-exit
-
 #Plot accuracy against coverage for all predictors
 (for file in $(ls ../import/SNACKKSS/output_stats | grep _accuracy.txt); do for col in $(seq $(cat ../import/SNACKKSS/output_stats/$file | head -1 | awk 'BEGIN {FS = "\t"}{print int(NF / 2)}') | awk '{print $1*2}'); do head -1 ../import/SNACKKSS/output_stats/$file | cut -f$col | awk '{print "'$file' "$0}' | sed 's/_accuracy.txt//g' | sed 's/ true//g' | sed 's/Gene/gene/g' | sed 's/Drug/drug/g' | sed 's/_/ /g'; done; done | paste -sd$'\t' | awk '{print "\t" $0}'
 for acc in $(seq 0 999 | awk '{print $1 / 1000}'); do (echo $acc; for file in $(ls ../import/SNACKKSS/output_stats | grep _accuracy.txt); do for col in $(seq $(cat ../import/SNACKKSS/output_stats/$file | head -1 | awk 'BEGIN {FS = "\t"}{print int(NF / 2)}') | awk '{print $1*2}'); do cat ../import/SNACKKSS/output_stats/$file | cut -f$col,$(echo $col | awk '{print $1 + 1}') | awk 'BEGIN {print 0} {if($1 + $2 == 0){next} else if($1 / ($1+$2) > '$acc'){print}}' | cut -f1 | sort -gr | head -1; done; done) | paste -sd$'\t'; done) > accuracy_vs_coverage.txt
-
-
 
 #Ablation test
 mkdir ablation
@@ -45,5 +41,22 @@ cat $(echo $drugpredfiles | sed 's/ /\n/g' | grep -vw $excluded | paste -sd' ') 
 done | paste -sd$'\t'
 done > ablation/SA4_target_coverage_ablation_test.txt &
 while [ $(jobs | grep Running | wc -l) -gt 0 ]; do jobs; sleep 1; done
+
+
+#Get the exact accuracy caps after ablating each predictor
+(echo $'Perturbation type\tDirection\tExcluded database\tAccuracy cap'
+for pert in gene drug; do
+genepredfiles="../import/PARMESAN/gene_loo_consensus.txt ../import/PARMESAN/gene_loo_hypotheses.txt ../import/PARMESAN/gene_loo_archs4_predictions.txt ../import/PubTator3/gene_loo_consensus.txt ../import/PubTator3/gene_loo_hypotheses.txt ../import/PubTator3/gene_loo_archs4_predictions.txt ../import/archs4/human_archs4_loo_preds.txt ../import/archs4/mouse_archs4_loo_preds.txt ../import/ConnectivityMap/loo_prediction_accuracy_estimates/gene.txt ../import/SNACKKSS/loo_prediction_accuracy_estimates/gene.txt"
+drugpredfiles=$(echo $genepredfiles | sed 's/ /\n/g' | grep -v archs4_loo_preds | sed 's/gene/drug/g' | paste -sd' ')
+predfiles=$genepredfiles
+if [ $(echo $pert | grep drug | wc -l) -gt 0 ]; then predfiles=$drugpredfiles; fi
+for sign in pos neg; do
+sgn='>'
+if [ $(echo $sign | grep neg | wc -l) -gt 0 ]; then sgn='<'; fi
+for excluded in nothing $predfiles; do
+cat $(echo $predfiles | sed 's/ /\n/g' | grep -vw $excluded | paste -sd' ') | sed 's/_/\t/g' | sort -k3,3gr -k4,4gr | sort -k1,1 -k2,2 -u | sort -k3,3gr | awk 'BEGIN {FS = "\t"; p = 0; n = 0; cur = ""; champ=0} $4 '$sgn' 0 {if(cur != "" && cur != $3 && p + n > 0){acc = p/(p+n); if(acc > champ){champ = acc}} cur = $3; if($4 * $5 > 0){p++} else{n++}} END {print "'$pert'\t'$sign'\t'$excluded'\t" champ}'
+done
+done
+done) > ablation_accuracy_caps.txt
 
 

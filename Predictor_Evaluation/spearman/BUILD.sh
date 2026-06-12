@@ -54,7 +54,7 @@ done
 while [ $(jobs | grep Running | wc -l) -gt 0 ]; do jobs; sleep 1; done
 
 #Calculate a larger set of matches for the SA4 procedure
-mkdir linkable_matches
+mkdir -p linkable_matches
 for pert in gene drug; do
 groundtruth=../import/dgidb.txt
 compsgn='-'
@@ -172,7 +172,7 @@ cat a4c_linked_predictions/$db.txt | awk '{print $1 "_" $2 "\t" $3}' | sort -k1,
 done
 done
 done | paste -sd$'\t' | awk '{print "'$i'\t" $0}'
-done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman positive\tGene Spearman negative\tGene DF1 positive\tGene DF1 negative\tGene Spearman significant positive\tGene Spearman significant negative\tDrug Spearman negative\tDrug Spearman positive\tDrug DF1 negative\tDrug DF1 posiive\tDrug Spearman significant negative\tDrug Spearman significant positive"} {print}' > output_stats/sa4_accuracy.txt
+done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman supportive\tGene Spearman inhibitory\tGene DF1 supportive\tGene DF1 inhibitory\tGene Spearman significant supportive\tGene Spearman significant inhibitory\tDrug Spearman inhibitory\tDrug Spearman supportive\tDrug DF1 inhibitory\tDrug DF1 supportive\tDrug Spearman significant inhibitory\tDrug Spearman significant supportive"} {print}' > output_stats/sa4_accuracy.txt
 
 for i in $(seq 0 100 | awk '{print $1 / 100}'); do
 for pert in gene drug; do
@@ -185,7 +185,7 @@ cat a4c_linked_predictions/$db.txt | awk '{print $1 "_" $2 "\t" $3}' | sort -k1,
 done
 done
 done | paste -sd$'\t' | awk '{print "'$i'\t" $0}'
-done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman positive\tGene Spearman negative\tGene DF1 positive\tGene DF1 negative\tGene Spearman significant positive\tGene Spearman significant negative\tDrug Spearman negative\tDrug Spearman positive\tDrug DF1 negative\tDrug DF1 posiive\tDrug Spearman significant negative\tDrug Spearman significant positive"} {print}' > output_stats/sa4_accuracy_smoothed.txt
+done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman supportive\tGene Spearman inhibitory\tGene DF1 supportive\tGene DF1 inhibitory\tGene Spearman significant supportive\tGene Spearman significant inhibitory\tDrug Spearman inhibitory\tDrug Spearman supportive\tDrug DF1 inhibitory\tDrug DF1 supportive\tDrug Spearman significant inhibitory\tDrug Spearman significant supportive"} {print}' > output_stats/sa4_accuracy_smoothed.txt
 
 for i in $(seq 0 100 | awk '{print $1 / 100}'); do
 for pert in gene drug; do
@@ -201,7 +201,7 @@ for sgn in 1 -1; do
 cat loo/${pert}_${sgn}.txt | awk '$5 < 0.05 {print $2 "_" $3 "\t" $4}' | sort -k1,1 | join -t$'\t' - <(cat $groundtruth | awk '{print $1 "_" $2 "\t" $3}' | sort -k1,1) | cut -f2- | awk 'BEGIN {FS = "\t"} $1 * ('$sgn') > 0 {print int(0.5 '$pertsgn' ($1 * $2 * 0.5 / sqrt($1^2 * $2^2))) "\t" sqrt($1^2)}' | sort -k2,2gr | awk 'BEGIN {FS = "\t"; p = 0; n = 0; cur = ""} {if(cur != "" && cur != $2 && p + n > 0){print cur "\t" p "\t" n "\t" p/(p+n)} cur = $2; p += $1; n += 1; n -= $1} END {print cur "\t" p "\t" n "\t" p/(p+n)}' | cut -f2,4 | awk 'BEGIN {print 0} $2 > '$i' {print $1}' | sort -gr | head -1
 done
 done | paste -sd$'\t' | awk '{print "'$i'\t" $0}'
-done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman positive\tGene Spearman negative\tGene DF1 positive\tGene DF1 negative\tGene Spearman significant positive\tGene Spearman significant negative\tDrug Spearman negative\tDrug Spearman positive\tDrug DF1 negative\tDrug DF1 posiive\tDrug Spearman significant negative\tDrug Spearman significant positive"} {print}' > output_stats/signature_match_accuracy.txt
+done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman supportive\tGene Spearman inhibitory\tGene DF1 supportive\tGene DF1 inhibitory\tGene Spearman significant supportive\tGene Spearman significant inhibitory\tDrug Spearman inhibitory\tDrug Spearman supportive\tDrug DF1 inhibitory\tDrug DF1 supportive\tDrug Spearman significant inhibitory\tDrug Spearman significant supportive"} {print}' > output_stats/signature_match_accuracy.txt
 
 for i in $(seq 0 100 | awk '{print $1 / 100}'); do
 for pert in gene drug; do
@@ -217,5 +217,5 @@ for sgn in 1 -1; do
 cat loo/${pert}_${sgn}.txt | awk '$5 < 0.05 {print $2 "_" $3 "\t" $4}' | sort -k1,1 | join -t$'\t' - <(cat $groundtruth | awk '{print $1 "_" $2 "\t" $3}' | sort -k1,1) | cut -f2- | awk 'BEGIN {FS = "\t"} $1 * ('$sgn') > 0 {print int(0.5 '$pertsgn' ($1 * $2 * 0.5 / sqrt($1^2 * $2^2))) "\t" sqrt($1^2)}' | sort -k2,2gr | awk 'BEGIN {FS = "\t"; p = 0; n = 0; cur = ""} {if(cur != "" && cur != $2){print cur "\t" p "\t" n "\t" p/(p+n+1)} cur = $2; p += $1; n += 1; n -= $1} END {print cur "\t" p "\t" n "\t" p/(p+n+1)}' | cut -f2,4 | awk 'BEGIN {print 0} $2 > '$i' {print $1}' | sort -gr | head -1
 done
 done | paste -sd$'\t' | awk '{print "'$i'\t" $0}'
-done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman positive\tGene Spearman negative\tGene DF1 positive\tGene DF1 negative\tGene Spearman significant positive\tGene Spearman significant negative\tDrug Spearman negative\tDrug Spearman positive\tDrug DF1 negative\tDrug DF1 posiive\tDrug Spearman significant negative\tDrug Spearman significant positive"} {print}' > output_stats/signature_match_accuracy_smoothed.txt
+done | awk 'BEGIN {FS = "\t"; print "\tGene Spearman supportive\tGene Spearman inhibitory\tGene DF1 supportive\tGene DF1 inhibitory\tGene Spearman significant supportive\tGene Spearman significant inhibitory\tDrug Spearman inhibitory\tDrug Spearman supportive\tDrug DF1 inhibitory\tDrug DF1 supportive\tDrug Spearman significant inhibitory\tDrug Spearman significant supportive"} {print}' > output_stats/signature_match_accuracy_smoothed.txt
 

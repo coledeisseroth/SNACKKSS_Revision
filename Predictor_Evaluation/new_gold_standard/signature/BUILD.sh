@@ -125,7 +125,7 @@ if [ $(echo $db | grep ConnectivityMap | wc -l) -gt 0 ]; then predspref=id_$pred
 for sign in pos neg; do
 comp='>'
 if [ $(echo $sign | grep neg | wc -l) -gt 0 ]; then comp='<'; fi
-for targ in $(cat $db/$predspref/${pert}_both.txt | cut -f2 | sort -u); do cat $db/$predspref/${pert}_both.txt | awk 'BEGIN {FS = "\t"} $2 == "'$targ'" && $3 '$comp' 0 {print ".\t" $0}' | join -t$'\t' - <(cat ${pert}_scoretables/${db}_${preds}_${sign}.txt | awk 'BEGIN {FS = "\t"} {print ".\t" $0}') | cut -f2- | awk 'sqrt($3^2) > $4' | sort -k5,5gr | sort -k1,1 -k2,2 -u | cut -f1,2,3,5; done > $db/$predspref/${pert}_${sign}_estimated.txt &
+for targ in $(cat $db/$predspref/${pert}_both.txt | cut -f2 | sort -u); do cat $db/$predspref/${pert}_both.txt | awk 'BEGIN {FS = "\t"} $2 == "'$targ'" && $3 '$comp' 0 {print ".\t" $0}' | join -t$'\t' - <(cat ../../import/$db/${pert}_${preds}_${sign}_scoretable.txt | awk 'BEGIN {FS = "\t"} {print ".\t" $0}') | cut -f2- | awk 'sqrt($3^2) > $4' | sort -k5,5gr | sort -k1,1 -k2,2 -u | cut -f1,2,3,5; done > $db/$predspref/${pert}_${sign}_estimated.txt &
 done
 done
 done
