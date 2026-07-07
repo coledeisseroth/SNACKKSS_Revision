@@ -1,0 +1,18 @@
+GSE126776	Took the space out of "PELP1- WT"
+GSE141409	Case sensitive: Should be "HapXAM"
+GSE148297	Testing Condition eliminated the controls
+GSE166328	The "Source name" had the control term in both the control and the experimental samples, so the experimental ones were classified as control
+GSE172629	Testing Condition eliminated the controls
+GSE178774	Benign: the sample description does not spell out the full drug name, but the pipeline is not currently built to detect names that don't always refer to the perturbagen. So, no terms need to be added.
+GSE179495	Testing Condition eliminated the controls
+GSE188659	Control label not specific enough--the KO samples also had "WT" in their sample descriptions.
+GSE190607	Control label not specific enough--it cannot be a substring of the disrupted label, otherwise the disrupted samples will be mistaken for controls.
+GSE193095	Control label not specific enough--the mutant samples also had "wt" in their sample descriptions.
+GSE197862	Extraneous space in "Control "
+GSE66484	Missing a space in "4 hr"
+GSE95782	Switched the testing conditions between the two experiments
+GSE156903	Missing a capitalized "Tacrolimus"
+GSE228152	Misspelled the perturbagen term, should be "Anifrolumab".
+GSE252250	Benign: Chemical name "tauroursodeoxycholic acid" not in sample description
+GSE97799	The KO experiments do not have a capitalized "PHO2" or "PHO4". The lowercase version is a valid gene name
+GSE99767	One of the rows was supposed to say "Acetic" instead of "Butyric" in the perturbed samples column

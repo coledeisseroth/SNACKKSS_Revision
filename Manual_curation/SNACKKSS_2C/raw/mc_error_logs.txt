@@ -1,0 +1,18 @@
+GSE222159	Capitalization wrong for "Amotl2", as it is written in the sample description
+GSE101167	CD95L not in sample descriptions
+GSE171633	mir409 and 501 labels were switched
+GSE131231	Benign: Name not provided in sample description
+GSE140645	Benign: Dual perturbation
+GSE149270	Extraneous space in "SynAnt 49"
+GSE162954	Benign: Name not in sample description
+GSE166345	Benign: Multiple simultaneous perturbations
+GSE169262	Benign: Name not in sample description
+GSE178774	Benign: Name not in sample description
+GSE201197	Benign: Name not in sample description
+GSE204754	Gene is "Kras", "G12V" is the variant
+GSE214412	Benign: Name not in sample description
+GSE219022	Extraneous space in "hydrochloric acid "
+GSE248721	Benign: Name not in sample description
+GSE262427	Benign: Name not in sample description
+GSE79412	Benign: Dual perturbation
+GSE99767	Benign: Name not in sample description

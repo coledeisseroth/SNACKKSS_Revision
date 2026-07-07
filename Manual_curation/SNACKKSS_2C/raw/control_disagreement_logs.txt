@@ -1,0 +1,22 @@
+GSE120693	SNACKKSS-MC separated by instrument model
+GSE125358	SNACKKSS-MC correctly identified the disrupted gene, and separated by mouse strain
+GSE133381	SNACKKSS-2C separated by passage
+GSE139371	SNACKKSS-MC used the correct group-separation tag, "cell_type:", with an underscore rather than a space
+GSE158018	One of SNACKKSS-MC' control annotations had a sample from another experiment (GSM4785342). Also, SNACKKSS-2C's annotation excluded GSM4785343 from consideration.
+GSE161160	SNACKKSS-MC separated by a tag in the sample title, where "G" would be in the name
+GSE167420	SNACKKSS-MC separated by stimulated/unstimulated
+GSE179491	SNACKKSS-2C separated Naive from 18hr conditions
+GSE185042	SNACKKSS-2C separated by tissue
+GSE188903	SNACKKSS-2C separated by sex
+GSE192585	SNACKKSS-MC separated by cell type.
+GSE199115	SNACKKSS-MC separated the two wild-type groups. The study was unpublished, so it was unclear what differed between them.
+GSE201788	SNACKKSS-2C separated by mean age
+GSE217392	SNACKKSS-2C separated by treatment
+GSE222159	SNACKKSS-2C separated by the sorting batch.
+GSE229661	SNACKKSS-MC fully separated by sequencing modality
+GSE236475	SNACKSKS-2C separated by sample label tags "D2" and "D4"
+GSE248741	SNACKKSS-2C separated by batch
+GSE57170	SNACKKSS-2C separated by cell type, cell line, and sequencing modality
+GSE70542	SNACKKSS-2C separated by gender
+GSE74019	SNACKKSS-2C separated by tissue
+GSE104547	SNACKKSS-MC excluded different-temperature controls for the clr4 deletion, and marked the CCR4/FEP1 deletion as a dual-perturbation

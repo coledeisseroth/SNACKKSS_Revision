@@ -126,7 +126,7 @@ done > a4c_linked_predictions/sig_$pert.txt &
 done
 while [ $(jobs | grep Running | wc -l) gt 0 ]; do jobs; sleep 1; done
 
-mkdir output_stats
+mkdir -p output_stats
 #How long, on average, does it take to calculate one spearman correlation, 11 in parallel?
 count=$(wc -l $(ls linkable_matches/gene_1/* | head -1; ls linkable_matches/drug_1/* | head -1) | tail -1 | awk '{print $1}')
 for pert in gene drug; do
@@ -136,7 +136,7 @@ echo $pert $sign
 done
 done | awk 'BEGIN {t = 0}{t += ($2 - $1) / (22 * '$count')} END {print t}' > output_stats/average_spearman_runtime.txt
 #One DF1 score, 11 in parallel?
-count=$(wc -l $(ls linkable_matches/df1_gene_${sign}/* | head -1; ls linkable_matches/df1_drug_${sign}/* | head -1) | tail -1 | awk '{print $1}')
+count=$(wc -l $(ls linkable_matches/df1_gene_1/* | head -1; ls linkable_matches/df1_drug_1/* | head -1) | tail -1 | awk '{print $1}')
 for pert in gene drug; do
 for sign in 1 -1; do
 echo $pert $sign

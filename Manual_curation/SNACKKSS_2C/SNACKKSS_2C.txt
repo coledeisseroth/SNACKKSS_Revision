@@ -1,0 +1,1127 @@
+Accession	Curated_by	Overexpression(OE)_Knockout(KO)_Knockdown(KD)_Other-gene-modulation(OM)_Drug(D)_None(N)	Sample_annotation(G=sample_id,T=Term)	Control_samples	Perturbed_samples	Comparison_Requirements	Testing_Condition	Perturbagen_terms	Comments
+GSE232343	Cole	N							
+GSE131792	Cole	N							
+GSE220013	Cole	D	T		total			dexamethasone	No control samples in this series
+GSE171872	Cole	OE	G	GSM5235975	GSM5235976			DTR	Diphtheria toxin receptor transgene, not overexpression of a normal gene
+GSE115048	Cole	N							
+GSE249225	Cole	N							
+GSE221587	Cole	KO	T	control	knockout		pancreatic acinar cells	Trip12	NO_SOFT_FILE
+GSE221587	Cole	KO	T	Trip12+/+	Trip12fl/fl		pancreatic tumor	Trip12	NO_SOFT_FILE
+GSE221587	Cole	KO	T	Trip12+/+	Trip12fl/+		pancreatic tumor	Trip12	NO_SOFT_FILE
+GSE79774	Cole	D	T	ctrl	GSI			GSI	Gamma-secretase inhibitor
+GSE153791	Cole	KO	T	WT	KO			SAPAP3;Sapap3	
+GSE197989	Cole	KO	T	Vector	KO			HDAC3	
+GSE88279	Ben(Q)	KD	G		GSM2343713;GSM2343714			TIAL1	No control samples in this series
+GSE262368	Ben(Q)	OM	T	WT	Het	age:;Sex:;region:		MYT1L	
+GSE262368	Ben(Q)	OM	T	WT	KO	age:;Sex:;region:		MYT1L	
+GSE262368	Ben(Q)	OM	T	Het	KO	age:;Sex:;region:		MYT1L	
+GSE192548	Ben(Q)	KD	T	siNT	siOVOL1			OVOL1	
+GSE192548	Ben(Q)	KD	T	siNT	siOVOL2			OVOL2	
+GSE167283	Ben(Q)	KO	T	Ctrl	FOXD2KO			FOXD2	
+GSE167283	Ben(Q)	KO	T	Ctrl	SATB2KO			SATB2	
+GSE109257	Ben(Q)	KO	T	Control	CKO			Keap1	
+GSE104590	Ben(Q)	N							
+GSE99042	Ben(Q)	N							
+GSE35857	Ben(Q)	OE	T		Ebf1/+			Ebf1	No control samples in this series
+GSE35857	Ben(Q)	KO	T		fl/-			Ebf1	No control samples in this series
+GSE120596	Ben(Q)	D	T	Placebo	ibuprofen sodium	gender:;timepoint:		ibuprofen sodium	
+GSE232184	Ben(Q)	N							
+GSE221579	Ben(Q)	N							
+GSE100183	Ben(Q)	KD	T	Scr	EP400			EP400	
+GSE100183	Ben(Q)	KD	T	Scr	MYCL			MYCL	
+GSE243600	Ben(Q)	D	T	Basal	High Salt		Liver	High Salt	
+GSE243600	Ben(Q)	D	T	Basal	High Salt		Kidney	High Salt	
+GSE233443	Ben(Q)	OM	T	WT	KO			GATA	
+GSE155918	Ben(Q)	D	T	NC	LPS	Sex:;time points:		LPS	
+GSE155918	Ben(Q)	D	T	NC	GARD	Sex:;time points:		GARD	
+GSE149390	Ben(Q)	KO	T	Ctrl	knockout			RAD6B	
+GSE79412	Ben(Q)	N							Double knockdown of broth FPS1 and FPS2; Neither gene mentioned in sample description, both mentioned in study description
+GSE79412	Ben(Q)	D	T	control	MFZ-treated			MFZ	
+GSE155203	Ben(Q)	KO	T	WT	KO			NSUN6	
+GSE124286	Ben(Q)	N							
+GSE89211	Ben(Q)	KO	T	WT	EED	treatment:		EED	
+GSE100861	Ben(Q)	N							
+GSE67310	Ben(Q)	OE	T	MEFs	 2 days upon Ascl1			Ascl1	
+GSE67310	Ben(Q)	OE	T	MEFs	 5 days upon Ascl1			Ascl1	
+GSE67310	Ben(Q)	OE	T	MEFs	20 days upon Ascl1			Ascl1	
+GSE67310	Ben(Q)	OE	T	MEFs	22 days upon Ascl1			Ascl1	
+GSE67310	Ben(Q)	OE	T	22 days upon Ascl1	22 days upon induction			Brn2;Myt1l	
+GSE197862	Ben(Q)	OE	T	Control 	overexpression of			miR-148a	
+GSE162389	Ben	D	T	NT	PMX53	patients:		PMX53	
+GSE162389	Ben	D	T	NT	JEP1357	patients:		JEP1357	
+GSE60571	Ben(Q)	N							
+GSE218242	Ben	N							
+GSE151761	Ben	N							
+GSE159596	Ben	N							
+GSE104134	Ben(Q)	D	G	GSM2790499	GSM2790503			DMSO	
+GSE100312	Ben	KO	G	GSM2676835	GSM2676836			HPIP	
+GSE112580	Ben(Q)	OM	T	Bcwt in planta	vel1			Bcvel1;vel1	
+GSE112580	Ben(Q)	OM	T	Bcwt in planta	lae1			lae1	
+GSE101519	Ben(Q)	N							
+GSE140645	Ben	N							
+GSE161764	Ben	N							
+GSE99767	Ben(Q)	OM	T	SC5314	Mig1	media:;treatment:		Mig1	
+GSE99767	Ben(Q)	D	T	None	Butyric	media:;strain/genotype:		Butyric acid	
+GSE99767	Ben(Q)	D	T	None	Butyric	media:;strain/genotype:		Acetic acid	
+GSE234507	Ben	KO	T	control	from KO			Abca1&Abcg1	Double gene knockout, none isolated
+GSE136358	Ben	N							
+GSE186745	Ben(Q)	KO	T	(fl/fl)	(-/-)			Chaf1b	
+GSE217703	Ben	D	T	control	BIBR-treated				Drug name BIBR1532 in pubmed article, not sample/study descriptions
+GSE217703	Ben	OE	T	vector	FOXC1 overexpressed			FOXC1	
+GSE219609	Ben	N							
+GSE248721	Ben	KO	T	WT	N1KO				Gene NR1D1 found in study description, not sample description
+GSE248721	Ben	KO	T	N1KO	NdKO			 	Gene NR1D2 found in study description, not sample description
+GSE248721	Ben	KO	T	WT	N2KO				Gene NR1D2 found in study description, not sample description
+GSE248721	Ben	KO	T	N2KO	NdKO			 	Gene NR1D1 found in study description, not sample description
+GSE190384	Ben	D	T	none	fulvestrant	esr1 mutation status:;source:;long term estrogen deprivation (lted):;		fulvestrant	
+GSE190384	Ben	D	T	none	elacestrant	esr1 mutation status:;source:;long term estrogen deprivation (lted):;		elacestrant	
+GSE190384	Ben	OM	T	wildtype	mutated	selective er modulator treatment:		ESR1	
+GSE53779	Ben	KO	T	WT	MUT	doxycycline concentration:		RBM47	
+GSE53779	Ben	D	T	dox-0	dox-1	transgene:		doxycycline	
+GSE53779	Ben	D	T	dox-0	dox-2.5	transgene:		doxycycline	
+GSE53779	Ben	D	T	dox-0	dox-5	transgene:		doxycycline	
+GSE53779	Ben	D	T	dox-0	dox-25	transgene:		doxycycline	
+GSE263138	Ben	OM	T	WT	RY			HDAC6	
+GSE263138	Ben	KO	T	WT	KO			HDAC6	
+GSE101544	Ben	OM	T	wild type	pde6c mutant			pde6c	
+GSE249150	Ben	OE	T	control-R	RORA			RORA	
+GSE249150	Ben	OE	T	control-P	PITX1			PITX1	
+GSE73436	Ben(Q)	OM	T	Wild-type	AMPK R299Q			AMPK γ2	Protein encoded by gene Prkag2(found in pubmed article)(AMPK γ2 is NOT an alias for Prkag2)
+GSE220049	Ben	Not RNA-Seq							
+GSE232240	Ben	Not RNA-Seq							
+GSE190655	Ben	OM	T	Mx1-Cre_rep	Mx1-Cre Inv(3)			Mx1	
+GSE190655	Ben	OM	T	Mx1-Cre_rep	Mx1-Cre Sf3b1-K700E_rep			Mx1	
+GSE190655	Ben	OM	T	Mx1-Cre Sf3b1-K700E_rep	Mx1-Cre Sf3b1-K700E: Inv(3)			Mx1	
+GSE221710	Ben(Q)	KO	T	2i;Serum	Kdm5c			Kdm5c	
+GSE221710	Ben(Q)	KO	T	2i;Serum	Mcm3ap			Mcm3ap	
+GSE221710	Ben(Q)	KO	T	2i;Serum	Spop			Spop	
+GSE221710	Ben(Q)	KO	T	2i;Serum	Zbtb14			Zbtb14	
+GSE208026	Ben	N							
+GSE226646	Ben	D	T	FRDA&control	FRDA_EPO	donor:		rhuEPO	
+GSE225992	Ben	OM	T	wild type	K700E			SF3B1	
+GSE143241	Ben	KO	T	Wild type	TTP KO	treatment:		TTP	Alias for ZFP36
+GSE143241	Ben(Q)	D	T	0h	3h	genotype:		Lipopolysaccharide	
+GSE143241	Ben(Q)	D	T	0h	6h	genotype:		Lipopolysaccharide	
+GSE143241	Ben(Q)	D	T	0h	9h	genotype:		Lipopolysaccharide	
+GSE241771	Ben	D	T	ctrl	CHP		tibialis	CHP	
+GSE241771	Ben	D	T	mdx_ctrl	mdx_CHP		heart	CHP	
+GSE241771	Ben	D	T	mdx_ctrl	mdx_CHP		gastrocnemius	CHP	
+GSE152664	Ben(Q)	D	T	no induction	1 mM IPTG		RNA-seq	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		RNA-seq&4.32 nM aTc	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		RNA-seq&4.32 nM aTc&5 mM Ara	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		RNA-seq&5 mM Ara	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		RNA-seq&5 mM Ara&4.32 nM aTc	IPTG	
+GSE152664	Ben(Q)	D	T	no induction	4.32 nM aTc		RNA-seq	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		RNA-seq&1 mM IPTG	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		RNA-seq&1 mM IPTG&5 mM Ara	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		RNA-seq&5 mM Ara	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		RNA-seq&5 mM Ara&1 mM IPTG	aTc	
+GSE152664	Ben(Q)	D	T	no induction	5 mM Ara		RNA-seq	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		RNA-seq&1 mM IPTG	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		RNA-seq&1 mM IPTG&4.32 nM aTc	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		RNA-seq&4.32 nM aTc	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		RNA-seq&4.32 nM aTc&1 mM IPTG	Ara	
+GSE152664	Ben(Q)	D	T	no induction	1 mM IPTG		Ribo-seq	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		Ribo-seq&4.32 nM aTc	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		Ribo-seq&4.32 nM aTc&5 mM Ara	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		Ribo-seq&5 mM Ara	IPTG	
+GSE152664	Ben(Q)	D	T		1 mM IPTG		Ribo-seq&5 mM Ara&4.32 nM aTc	IPTG	
+GSE152664	Ben(Q)	D	T	no induction	4.32 nM aTc		Ribo-seq	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		Ribo-seq&1 mM IPTG	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		Ribo-seq&1 mM IPTG&5 mM Ara	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		Ribo-seq&5 mM Ara	aTc	
+GSE152664	Ben(Q)	D	T		4.32 nM aTc		Ribo-seq&5 mM Ara&1 mM IPTG	aTc	
+GSE152664	Ben(Q)	D	T	no induction	5 mM Ara		Ribo-seq	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		Ribo-seq&1 mM IPTG	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		Ribo-seq&1 mM IPTG&4.32 nM aTc	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		Ribo-seq&4.32 nM aTc	Ara	
+GSE152664	Ben(Q)	D	T		5 mM Ara		Ribo-seq&4.32 nM aTc&1 mM IPTG	Ara	
+GSE150620	Ben	D	G	GSM4553924;GSM4553925;GSM4553926;GSM4553927;GSM4553928;GSM4553929	GSM4553936;GSM4553937;GSM4553938;GSM4553939;GSM4553940			Clodronate	
+GSE224038	Ben	D	T	Untreated	CORT treated			Corticosterone-2-hydroxypropyl-Beta-cyclodextrin;CORT	
+GSE202049	Ben	D	T		MUC5B static			MUC5B	No control samples in this series
+GSE202049	Ben	D	T		LDP static			LDP	No control samples in this series
+GSE118220	Ben(Q)	D	T	DMSO	CBP30	transfected with:		CBP30	
+GSE118220	Ben(Q)	D	T	OSKM-DMSO	ICBP112			ICBP112	
+GSE118220	Ben(Q)	D	T	DMSO	A485	transfected with:		A485	
+GSE134295	Ben(Q)	OM	T	control	rrp6 deletion		ribo-	rrp6	
+GSE134295	Ben(Q)	OM	T	control	dis3-1		ribo-	dis3	
+GSE134295	Ben(Q)	OM	T	control	srm1-ts		ribo-	srm1	
+GSE134295	Ben(Q)	OM	T	control	enp1-1		ribo-	enp1	
+GSE134295	Ben(Q)	OM	T	control	csl4-ph		ribo-	csl4	
+GSE134295	Ben(Q)	OM	T	control	srm1-ts		dT	srm1	
+GSE134295	Ben(Q)	OM	T	control	enp1-1		dT	enp1	
+GSE134295	Ben(Q)	OM	T	control	csl4-ph		dT	csl4	
+GSE134295	Ben(Q)	OM	T	control	enp1-1		empty vector	enp1	
+GSE134295	Ben(Q)	OM	T	control	csl4-ph		empty vector	csl4	
+GSE134295	Ben(Q)	OM	T	control	enp1-1		Pab1GFP vector	enp1	
+GSE134295	Ben(Q)	OM	T	control	csl4-ph		Pab1GFP vector	csl4	
+GSE125358	Ben	KO	T	WT	KO		cult	OTII	
+GSE125358	Ben	KO	T	WT	KO		MLN	OTII	
+GSE83404	Ben	N							
+GSE127118	Ben	N							
+GSE156156	Ben	KO	T	WT	cKO	treatment:		LaminB1	Abbreviated gene name LMNB1
+GSE137154	Ben(Q)	N							
+GSE211632	Ben	KD	T	Control	Pros-depleted			Pros	
+GSE55735	Ben	KO	T	+/+	-/-			Drosha	
+GSE192357	Ben	N							
+GSE148297	Ben	KO	T	WT	KO		mouse1	GPX4	
+GSE148297	Ben	KO	T	WT	KO		mouse2	GPX4	
+GSE184697	Ben	N							
+GSE138939	Ben	D	T	treated with ethanol	treated with 1uM enzalutamide	treatment:		enzalutamide	
+GSE138939	Ben	D	T	control	D1;D2	pretreatment:		DHT	Does not specify what DHT is
+GSE138939	Ben	D	T	D1;D2	-1uM-enzalutamide	pretreatment:		enzalutamide	
+GSE138939	Ben	D	T	Vc-1uM-enzalutamide	-1uM-enzalutamide	pretreatment:		DHT	Does not specify what DHT is
+GSE138939	Ben	D	T	control	Vc-1uM-enzalutamide	pretreatment:		enzalutamide	
+GSE106626	Ben	KD	T	siSCR	siETV1			ETV1	
+GSE106626	Ben	KD	T	siSCR	siFOXF1			FOXF1	
+GSE65936	Ben(Q)	D	T	Veh-	AR-		T/	AR-42	
+GSE65936	Ben(Q)	D	T	Veh-	AR-		TF	AR-42	
+GSE141123	Ben	KO	T	WT_12	OsC3			OsC3'H1	
+GSE118187	Ben	KO	T	Wild Type	-/-			Prdm12	
+GSE172399	Ben	N							
+GSE171633	Ben	KD	T	control	antimir409			mir409	
+GSE171633	Ben	KD	T	control	antimir501			mir501	
+GSE192773	Ben	N							
+GSE244748	Ben(Q)	D	T	Pre-sotigalimab	Post-sotigalimab		T cell receptor	sotigalimab	
+GSE244748	Ben(Q)	D	T	Pre-sotigalimab	Post-sotigalimab		B cell receptor	sotigalimab	
+GSE244748	Ben(Q)	D	T	Pre-sotigalimab	Post-sotigalimab		Gene expression	sotigalimab	
+GSE97799	Ben(Q)	KO	T	ScPHO2	pho2Δ	pho4 locus:		PHO2	
+GSE97799	Ben(Q)	KO	T	ScPHO4	pho4Δ	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	SpPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	CgPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	CbPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	NdPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	CnPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	NbPHO4	pho2 locus:		PHO4	
+GSE97799	Ben(Q)	OM	T	ScPHO4	LkPHO4	pho2 locus:		PHO4	
+GSE98144	Ben	KO	T	Dicerfl/fl (Control)	Cre:Dicerfl/fl		P0 (NewBorn)	Dicer	Alias for DICER1
+GSE98144	Ben	D	T	MG_Dicer;MG_WT	LPS	strain:	Total_brain	LPS	
+GSE98144	Ben	D	T	MG_Dicer;MG_WT	LPS	strain:	Hippocampal	LPS	
+GSE98144	Ben	KO	T	Dicer+/-	Dicerfl/-		hippocampal&LPS	Dicer	Alias for DICER1
+GSE98144	Ben	KO	T	Dicer+/-	Dicerfl/-		hippocampal&\(MG_Dicer;MG_WT\)	Dicer	Alias for DICER1
+GSE98144	Ben	KO	T	Dicer+/-	Dicerfl/-		Total_brain&LPS	Dicer	Alias for DICER1
+GSE98144	Ben	KO	T	Dicer+/-	Dicerfl/-		Total_brain&\(MG_Dicer;MG_WT\)	Dicer	Alias for DICER1
+GSE98144	Ben	KO	G	GSM2588472;GSM2588473;GSM2588474	GSM2588475;GSM2588476;GSM2588477;GSM2588478			Dicer	Alias for DICER1
+GSE151444	Ben	N							
+GSE92870	Ben(Q)	N							
+GSE183778	Ben	N							
+GSE224686	Ben	N							
+GSE154119	Ben	N							
+GSE79782	Ben	N							
+GSE114516	Ben	OM	T	WT	KI			Asxl1	
+GSE181959	Ben(Q)	D	T	CON	DSS	tissue:		DSS	
+GSE202827	Ben	N							
+GSE141872	Ben	N							
+GSE99982	Ben	KO	T	wild-type	nrpmut			nrp1&nrp2	Double gene knockout
+GSE99982	Ben	OE	T	wild-type	nrp1ox			nrp1	
+GSE241736	Ben	KO	T		SHH			Smarcb1	No control samples in this series
+GSE229661	Ben	KO	T	Bulk RNA&EV	Bulk RNA&Crispr			Hdac3	
+GSE229661	Ben	KO	T	CTL	H3KO			Hdac3	
+GSE94110	Ben(Q)	OM	T	Control	downregulated			celA	
+GSE110328	Ben	KD	T	C1G1	C1G2			Tph2	
+GSE110328	Ben	KO	T	C1G1	C1G3			Tph2	
+GSE219747	Ben	N							
+GSE126776	Ben(Q)	OE	T	vector control	PELP1-WT			PELP1	
+GSE126776	Ben(Q)	OM	T	PELP1-WT	PELP1- NLS mutant			PELP1	
+GSE248741	Ben	KO	T	WT	KO;dnd1	Sex:;tissue:;batch:;age:		dnd1	
+GSE202958	Ben	KO	T	HGG control	HGG Sox9-LOF			Sox9	
+GSE202958	Ben	OE	T	HGG control	HGG Sox9-GOF			Sox9	
+GSE202958	Ben	OE	T	EPN control	EPN Sox9-GOF			Sox9	
+GSE29968	Ben	N							
+GSE188903	Ben	KO	T	Control	KO	Sex:	Mog-TDP43	TDP43	
+GSE188903	Ben	KO	T	Control	KO	Sex:	Mobp-TDP43	TDP43	
+GSE247910	Ben	Not RNA-Seq							
+GSE115277	Ben	N							
+GSE195727	Ben	N							
+GSE246056	Ben	N							
+GSE210567	Ben	N							
+GSE163247	Ben(Q)	D	T	SMC 0hr	SMC 24hr			cholesterol	
+GSE163247	Ben(Q)	D	T	SMC 0hr	SMC 48hr			cholesterol	
+GSE163247	Ben(Q)	D	T	SMC 0hr	SMC 72hr			cholesterol	
+GSE154677	Ben	N							
+GSE112335	Ben	D	T	WT	MN58b-resistant			MN58b	
+GSE116610	Ben	OM	T	WT	\;hsromega66			hsromega	Semi colon part of text
+GSE116610	Ben	OE	T	WT	Hsp90GFP rep				perturbed gene hsp83 in study description not sample description
+GSE116610	Ben	OM	T	Hsp90GFP rep	Hsp90GFPhsromega66			hsromega	
+GSE116610	Ben	OE	T	\;hsromega66	Hsp90GFPhsromega66				Semi colon part of text; perturbed gene hsp83 in study description not sample descriptiom
+GSE140955	Ben	D	T	Tris 6	cGMP 6			cyclic-di-GMP	
+GSE140955	Ben	D	T	Tris 12	cGMP 12			cyclic-di-GMP	
+GSE140955	Ben	D	T	Tris 24	cGMP 24			cyclic-di-GMP	
+GSE140955	Ben	D	T	Tris 6	cGAMP 6			2'3'-cGAMP	
+GSE140955	Ben	D	T	Tris 12	cGAMP 12			2'3'-cGAMP	
+GSE140955	Ben	D	T	Tris 24	cGAMP 24			2'3'-cGAMP	
+GSE164557	Ben	D	T	Healthy	Acute			CPP	Drug specified as cyclophosphamide in study description
+GSE164557	Ben	D	T	Healthy	Chronic			CPP	Drug specified as cyclophosphamide in study description
+GSE244152	Ben	D	T	no erythromycin	with erythromycin			erythromycin	
+GSE241427	Ben	D	T	DMSO	IBRD9	cell line:		IBRD9	
+GSE161160	Ben	KO	T	WT	ITK	time point:		ITK	
+GSE144275	Ben	KO	T	WT&ProB	Rag1ko/ko&ProB		Experiment_1	Rag1	
+GSE144275	Ben	OM	T	WT&ProB	IghTer5H/Ter5H&ProB		Experiment_1	Igh	
+GSE144275	Ben	OM	G	GSM4284812;GSM4284813;GSM4284814	GSM4284815;GSM4284816;GSM4284817		Experiment_2	Igh	
+GSE144275	Ben	OM	G	GSM4284818;GSM4284819;GSM4284820	GSM4284824;GSM4284825;GSM4284826		Experiment_3	Igh	Premature stop codon removing transmembrane region
+GSE144275	Ben	OM	G	GSM4284827;GSM4284828;GSM4284829	GSM4284830;GSM4284831;GSM4284832		Experiment_4	Igh	Premature stop codon removing transmembrane region
+GSE201524	Ben(Q)	D	T	serum free medium	HGF-CM (human gingival fibroblast derived-conditioned medium)			HGF-CM;human gingival fibroblast derived-conditioned medium	
+GSE157057	Ben	N							
+GSE252568	Ben	D	T	Control	Cis	cell line:		Cisplatin	
+GSE252568	Ben	D	T	Control	Sim	cell line:		Simurosertib	
+GSE252568	Ben	D	T	Sim	Comb	cell line:		Cisplatin	
+GSE252568	Ben	D	T	Cis	Comb	cell line:		simurosertib	
+GSE201176	Ben	KD	T	WT	knock down			NPTX1	
+GSE152430	Ben	N							
+GSE181873	Ben	KO	T	WT	KO		Vav	Ezh2	
+GSE181873	Ben	KO	T	WT	KO		Tie2	Ezh2	
+GSE225604	Ben	KO	T	WT	21D			21D	
+GSE225604	Ben	KO	T	WT	82Eb			82Eb	
+GSE225604	Ben	KO	T	WT	95Ca			95Ca	
+GSE225604	Ben	KO	T	WT	95Cb			95Cb	
+GSE225604	Ben	KO	T	WT	95Cc			95Cc	
+GSE168453	Ben	N							
+GSE225839	Ben	N							
+GSE107697	Ben	N							
+GSE126313	Ben	KO	T	wild type (	cir1 mutant (			cir1	
+GSE126313	Ben	KO	T	wild type (	hapX mutant (			hapX	
+GSE126313	Ben	D	T	wild type (	wild type that			FeCl3	
+GSE126313	Ben	D	T	cir1 mutant (	cir1 mutant that			FeCl3	
+GSE126313	Ben	D	T	hapX mutant (	hapX mutant that			FeCl3	
+GSE253742	Ben	D	T	prior to	post			osimertinib	
+GSE151357	Ben	N							
+GSE169610	Ben	N							
+GSE221467	Ben(Q)	D	T	WT_N	WT_24h			Ink128	WT vs. KO a valid double knockout study, but term used for the two genes knocked out is TET1/2, does not say both explicitly, therefore not considering
+GSE221467	Ben(Q)	D	T	WT_N	WT_72h			Ink128	WT vs. KO a valid double knockout study, but term used for the two genes knocked out is TET1/2, does not say both explicitly, therefore not considering
+GSE221467	Ben(Q)	D	T	WT_N	WT_144h			Ink128	WT vs. KO a valid double knockout study, but term used for the two genes knocked out is TET1/2, does not say both explicitly, therefore not considering
+GSE221467	Ben(Q)	D	T	KO_N	KO_24h			Ink128	WT vs. KO a valid double knockout study, but term used for the two genes knocked out is TET1/2, does not say both explicitly, therefore not considering
+GSE221467	Ben(Q)	D	T	KO_N	KO_72h			Ink128	WT vs. KO a valid double knockout study, but term used for the two genes knocked out is TET1/2, does not say both explicitly, therefore not considering
+GSE160382	Ben(Q)	D	T	stimulated without	stimulated with ATP			ATPgS	
+GSE175599	Ben	KO	T	WT	KO			Ezh2	
+GSE169584	Ben	KO	T	WT	KO	treatment:		IRE1-alpha	Alias for gene ERN1
+GSE169584	Ben	D	T	DMSO	Thapsigargin	genotype:		Thapsigargin	
+GSE193065	Ben	N							
+GSE95782	Ben	D	T	treatment: DEN	Poly I:C	time point:	Pten KO	Poly I:C	
+GSE95782	Ben	D	T	none	Poly I:C	time point:	Shp2 KO	Poly I:C	
+GSE178623	Ben(Q)	N							mCherry not a valid experiment; Microglia conditioned media does not have one chemical difference to GSC conditioned media
+GSE64813	Ben	N							
+GSE159450	Ben	KO	T	WT	Stinggt/gt	infection:		Sting	
+GSE62913	Ben	N							
+GSE147818	Ben	KO	T	wild type	Heterozygous KO	Sex:		DNMT3A	
+GSE107671	Ben	KO	T	WT	cKO			Setdb1	
+GSE120714	Ben	D	T		anti-PD-1			anti-PD-1	No control samples in this series; anti-PD-1 is a class of drugs, not a drug
+GSE172492	Ben(Q)	D	T	untreated	1xCCl4			CCl4	
+GSE172492	Ben(Q)	D	T	untreated	4xCCl4			CCl4	
+GSE172492	Ben(Q)	D	T	untreated	12xCCl4			CCl4	
+GSE153747	Ben	OE	T	Noninduced	IND12-16hpi		full length GrgA	GrgA	
+GSE153747	Ben	OE	T	Noninduced	IND17-21hpi		full length GrgA	GrgA	
+GSE153747	Ben	OM	T	full length GrgA	delta1-64 GrgA		12 and 16 hpi	GrgA	
+GSE153747	Ben	OM	T	full length GrgA	delta138-165 GrgA		12 and 16 hpi	GrgA	
+GSE153747	Ben	OE	T	Noninduced	15 and 16 hpi		full length GrgA	GrgA	
+GSE153747	Ben	OE	T	Noninduced	14 and 16 hpi		full length GrgA	GrgA	
+GSE153747	Ben	OE	T	Noninduced	15.5 and 16 hpi		full length GrgA	GrgA	
+GSE153747	Ben	OE	T	Noninduced	Induced with ATC		Euo expression	Euo	
+GSE153747	Ben	OE	T	Noninduced	Induced with ATC		HrcA expression	HrcA	
+GSE230712	Ben	D	T	DMSO	GSK-126			GSK-126	
+GSE109805	Ben	N							
+GSE61439	Ben	N							Only a single RNA-seq in this series, and it is a control, so cannot deduce the type of experiment
+GSE155130	Ben(Q)	KO	T	Ctrl	CTCL			CTCL	CTCL is alias for TSPYL2 gene but very unclear as to what is being referred to by CTCL
+GSE221023	Ben	KO	T	Wildtype	SKO_CRE			PTEN	
+GSE221023	Ben	KO	T	SKO_CRE	DKO_CRE			Rb1	
+GSE221023	Ben	D	T	DKO Vehicle	DKO UK5099			UK5099	
+GSE221023	Ben	KO	T	Vehicle&Mpc1 floxed	Mpc1-KO			Mpc1	
+GSE221023	Ben	D	T	Vehicle&Mpc1 floxed	UK5099&Mpc1 floxed			UK5099	
+GSE99784	Ben	OM	T	wild type	S89G-DMP1	tissue:		DMP1	
+GSE132708	Ben	N							
+GSE164963	Ben	N							
+GSE96551	Ben	KO	T	WT_6	MT_6				Gene name pykA mentioned in study description, not sample description
+GSE96551	Ben	KO	T	WT_12	MT_12				Gene name pykA mentioned in study description, not sample description
+GSE96551	Ben	KO	T	WT_24	MT_24				Gene name pykA mentioned in study description, not sample description
+GSE96551	Ben	KO	T	WT_48	MT_48				Gene name pykA mentioned in study description, not sample description
+GSE201788	Ben	KO	T	WT	KO	mean age:		Ahr;AHR	
+GSE154711	Ben	N							
+GSE171181	Ben	KD	T	shCtrl	shSF3B1			SF3B1	
+GSE171181	Ben	D	T	DMSO 24h	E7107 24h		1.5nM	E7107	
+GSE171181	Ben	D	T	DMSO 24h	E7107 24h		3nM	E7107	
+GSE171181	Ben	D	T	DMSO 1hr	E7107		15min	E7107	
+GSE171181	Ben	D	T	DMSO 1hr	E7107		30min	E7107	
+GSE171181	Ben	D	T	DMSO 1hr	E7107		1hr	E7107	
+GSE171181	Ben	D	T	DMSO 24h	LL1 NMDi			NMDi	
+GSE171181	Ben	D	T	LL1 NMDi	E7107 3nM NMDi 5uM			E7107	
+GSE171181	Ben	D	T	E7107 24h	E7107 3nM NMDi 5uM			NMDi	
+GSE171181	Ben	D	T	DMSO 24h	E7107 24h		TTseq	E7107	
+GSE171181	Ben	D	T	DMSO 15m	E7107 15min		TTseq	E7107	
+GSE86377	Ben	Not RNA-Seq							
+GSE115896	Ben	N							
+GSE78381	Ben	N							
+GSE77742	Ben	OM	T	Control	Experiment				Gene name TCF4 mentioned in study description, not sample description
+GSE158018	Ben	KO	T	wt	Bcor-/- 	cell type:		Bcor	
+GSE158018	Ben	KO	T	wt	Dnmt3a-/- (8	cell type:		Dnmt3a	
+GSE158018	Ben	KO	T	Bcor-/- 	Bcor-/-Dnmt3a-/-	cell type:		Dnmt3a	
+GSE158018	Ben	KO	T	Dnmt3a-/- (8	Bcor-/-Dnmt3a-/-	cell type:		Bcor	
+GSE126630	Ben	N							
+GSE183190	Ben	N							
+GSE178707	Ben	N							
+GSE177681	Ben	N							
+GSE87670	Ben	D	G	GSM2338056;GSM2338057	GSM2338058;GSM2338059			Cyt-D	Shortened name for chemical/toxin Cytochalasin D, not mentioned in study or sample description, only Cyt-D
+GSE149270	Ben	D	T	no_treatment	SynAnt49			SynAnt49	
+GSE37236	Ben	KO	T	WT	SAMHD1 KO			SAMHD1	
+GSE114090	Ben	N							
+GSE160415	Ben	KO	T	WT	KO			Mark3	
+GSE124954	Ben	KO	T	Wil	Het	tissue:;environment:		CREB	
+GSE124954	Ben	KO	T	Wil	Hom	tissue:;environment:		CREB	
+GSE124954	Ben	KO	T	Het	Hom	tissue:;environment:		CREB	
+GSE131449	Ben	KO	T	WT	heterozygous			STAG2	
+GSE131449	Ben	KO	T	WT	-/-			STAG2	
+GSE131449	Ben	KO	T	heterozygous	-/-			STAG2	
+GSE37933	Ben(Q)	KD	T	Control	PTBP1 siRNA			PTBP1	
+GSE37933	Ben(Q)	KD	T	PTBP1 siRNA	PTBP1+PTBP2			PTBP2	
+GSE167566	Ben	N							tTa and DN both affect more than one gene
+GSE90988	Ben	D	T	Untreated	Bic-2h			Bicuculline	
+GSE90988	Ben	D	T	Untreated	Bic-6h			Bicuculline	
+GSE90988	Ben	D	T	Untreated	TTX-2h			TTX	Only abbreviated name of drug mentioned in sample/study descriptions and pubmed article
+GSE90988	Ben	D	T	Untreated	TTX-6h			TTX	Only abbreviated name of drug mentioned in sample/study descriptions and pubmed article
+GSE131242	Ben	Not RNA-Seq							
+GSE174173	Ben	KO	T	Pten knockdown	Pten and Scap			Scap	
+GSE57391	Ben	KO	T	Control	fl/fl	cell population:		Ezh2	
+GSE222861	Ben	N							
+GSE141835	Ben	N							
+GSE193373	Ben	D	T	Bepridil_0	Bepridil_250			Bepridil	
+GSE193373	Ben	D	T	Bepridil_0	Bepridil_750			Bepridil	
+GSE193373	Ben	D	T	Bepridil_0	Bepridil_1295			Bepridil	
+GSE139613	Ben	N							
+GSE194043	Ben	KO	T	Exd2+/+	Exd2delta			Exd2	
+GSE172493	Ben	D	T	untreated	G10			G10	Explanation of G10 in pubmed article
+GSE172493	Ben	D	T	untreated	mCMP-001 + anti-Qbeta			mCMP-001 + anti-Qbeta	mCMP-001 coated with anti-Qbeta
+GSE172493	Ben	D	T	untreated	CMP-001 + anti-Qbeta			CMP-001 + anti-Qbeta	CMP-001 coated with anti-Qbeta
+GSE67214	Ben	N							
+GSE165497	Ben	KD	T	siN	siHoxa5			Hoxa5	
+GSE194206	Ben	N							
+GSE169262	Ben(Q)	OM	G	GSM5614917	GSM5614922;GSM5614923				Modulated Gene Vsx2 associated with OrJ strain mentioned in pubmed article; ALL other samples do not represent valid experiments as they modulate regions of the super enhancer region of a gene, which is not part of that gene.
+GSE118567	Ben	D	T	Nontreated	TOFA-treated	age:		TOFA	Lengthened name of drug in study annotation: (5-(Tetradecyloxy-2-furoic acid)
+GSE148687	Ben(Q)	D	T	control miRNA	miR-324-5p duplex			miR-324-5p duplex	
+GSE148687	Ben(Q)	D	T	control miRNA	miR-324-3p.1 duplex			miR-324-3p.1 duplex	
+GSE153921	Ben	D	T 	Non-induced	 Induced D5plus			4OHT	
+GSE153921	Ben	KD	T 	 Induced D5plus	shXPO7_3			XPO7	
+GSE153921	Ben	KD	T 	 Induced D5plus	shXPO7_5			XPO7	
+GSE106848	Ben(Q)	N							
+GSE233254	Ben	OE	T	Control (WT)	Nkx6-2 overexpression	cell line:		Nkx6-2	
+GSE173350	Ben	N							
+GSE114252	Ben	KO	T	ctrl	Smad4ddc	developmental stage:;age:		Smad4	
+GSE217871	Ben	N							Not enough information given to distinguish/identify samples
+GSE109001	Ben	N							
+GSE96549	Ben	N							
+GSE140378	Ben	KO	T 	Control	KO			Abca12	
+GSE201992	Ben	KO	T 	Fl_	Cl19_			Fh1	FH in humans, Fh1 in mice
+GSE201992	Ben	KO	T 	Fl_	Fl g1Hira			Hira	
+GSE201992	Ben	KO	T 	Cl19_	Cl19 g1Hira			Hira	
+GSE119988	Ben	N							
+GSE79638	Ben	KO	T 	WT	-/-		E10.5	Arid3a	
+GSE79638	Ben	KO	T 	WT	-/-		E11.5	Arid3a	
+GSE128913	Ben	OE	T 	NC	overexpression			PRMT1	
+GSE149539	Ben	D	T 	no treatment	Palbociclib treatment	cell line:		Palbociclib	
+GSE149539	Ben	D	T 	0h	24h			GSK-J4	
+GSE149539	Ben	D	T 	0h	48h			GSK-J4	
+GSE149539	Ben	KD	T 	control	siKDM6B N1			KDM6B	
+GSE149539	Ben	KD	T 	control	siKDM6B N2			KDM6B	
+GSE149539	Ben	KD	T 	control	siKDM6B N33			KDM6B	
+GSE207427	Ben	OM	T 	wt_	rad52			rad52	Does not describe mutation anywhere
+GSE207427	Ben	OM	T 	wt_	sac3			sac3	Does not describe mutation anywhere
+GSE207427	Ben	OM	T 	wt_	spt3			spt3	Does not describe mutation anywhere
+GSE57170	Ben	KD	T 	EGFP	Smarca4		RNA-seq	Smarca4	
+GSE57170	Ben	KD	T 	EGFP	Smarca4	cell type:;cell line:	CAP-seq	Smarca4	
+GSE201197	Ben	D	T 	unstimulated	 stimulated	subject:		PMA&ionomycin	PMA + ionomycin two molecules that work together as a drug
+GSE222159	Ben	KO	T 	WT	KO	cell type:	sort_1	Amotl2	Series has over 1000 samples, my annotation is a generalization
+GSE222159	Ben	KO	T 	WT	KO	cell type:	sort_2	Amotl2	Series has over 1000 samples, my annotation is a generalization
+GSE76860	Ben	D	T 	DMSO	THZ1	cell line:;time point (hrs):	50nM	THZ1	
+GSE76860	Ben	D	T 	THZ1&6hr&50nM	200nM	cell line:		THZ1	
+GSE244723	Ben	Not RNA-seq							
+GSE178099	Ben	KO	T 	WT	mutant			hlh-26	
+GSE263647	Ben	N							
+GSE254435	Ben	N							
+GSE204754	Ben(Q)	KO	T 	loxG12Vlox	(+/-)			Kras	
+GSE152185	Ben	D	T 	DMSO	Tofa			Tofa;tofacitinib	
+GSE152185	Ben	D	T 	DMSO	Ruxo			Ruxo;ruxolitinib	
+GSE131492	Ben	KD	T 	SCRAMBLE	shKLF5			KLF5	
+GSE86101	Ben	D	T 	untreated	CytochalasinD	ploidy:		CytochalasinD	
+GSE86101	Ben	D	T 	untreated	ZM447439	ploidy:		ZM447439	
+GSE93989	Ben	N							
+GSE59822	Ben	N							
+GSE157538	Ben	N							
+GSE85690	Ben	D	T 	Serum	2i			2i	2i expalined in pubmed article, two small-molecule inhibitors: PD0325901 and CHIR99021
+GSE234701	Ben	D	T 	CTRL	IL1b		Normoxia	IL1b	
+GSE234701	Ben	D	T 	CTRL	IL1b		Sustained hypoxia	IL1b	
+GSE234701	Ben	D	T 	CTRL	IL1b		Intermittent hypoxia	IL1b	
+GSE217392	Ben	KO	T 	creNeg	crePos	treatment:		HuR	Alias for Elavl1
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT1			CAT1	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT2			CAT2	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT3			CAT3	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT4			CAT4	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT5			CAT5	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT6			CAT6	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT7			CAT7	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT8			CAT8	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT9			CAT9	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT10			CAT10	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT11			CAT11	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT12			CAT12	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT13			CAT13	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT14			CAT14	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT15			CAT15	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT16			CAT16	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	HeLa_CAT17			CAT17	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown in MN	CAT7 knockdown in MN			CAT7	Novel lncRNA
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	Xist knockdown			Xist	
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	Suz12 knockdown			Suz12	
+GSE61549	Ben(Q)	KD	T 	SCR knockdown&HeLa F-17	Bmi1 knockdown			Bmi1	
+GSE109322	Ben	D	T 	unstimulated	γ-stimulated	cell type:;tissue:		IFN-γ	Drug specified as Interferon-γ in study description
+GSE99780	Ben(Q)	N							
+GSE126171	Ben(Q)	OE	T 	_Dox_&empty vector	_Dox_&transduced with V5-FOXL2 WT lentivirus		polyA&12 hours	FOXL2	
+GSE126171	Ben(Q)	OE	T 	_Dox_&empty vector	_Dox_&transduced with V5-FOXL2 WT lentivirus		ribodep	FOXL2	
+GSE126171	Ben(Q)	OM	T 	_Dox_&transduced with V5-FOXL2 WT lentivirus	_Dox_&transduced with V5-FOXL2 C134W lentivirus	induction:	polyA	FOXL2	
+GSE126171	Ben(Q)	OM	T 	_Dox_&transduced with V5-FOXL2 WT lentivirus	_Dox_&transduced with V5-FOXL2 C134W lentivirus		ribodep	FOXL2	
+GSE126171	Ben(Q)	D	T 	_noDox_&empty vector	_Dox_&empty vector		polyA	Doxycycline	
+GSE126171	Ben(Q)	D	T 	_noDox_&empty vector	_Dox_&empty vector		ribodep	Doxycycline	
+GSE122303	Ben	D	T 	DMSO	THZ531	cell line:		THZ531	
+GSE162954	Ben	N							
+GSE54411	Ben	KO	T 	wild-type	Dnmt3l knockout			Dnmt3l	
+GSE199115	Ben	KO	T 	wild type	Eed maternal knockout			Eed	
+GSE199115	Ben	KO	T 	Eed maternal knockout	Eed/Xist matDKO			Xist	
+GSE56962	Ben	OE	T 	WT	transgenic	tissue:;age:		MCPH1	
+GSE134362	Ben	Not RNA-seq							
+GSE249909	Ben	N							
+GSE142731	Ben	N							
+GSE31302	Ben	N							
+GSE128291	Ben	OM	T 	Ctrl	Mut			surfactant protein C	Gene abbreviation SFTPC
+GSE92241	Ben	N							
+GSE186166	Ben	D	T 	Control	DAMP-Stimulated			N-formyl-methionyl-leucyl-phenylalanine	
+GSE186166	Ben	D	T 	Control	Mito-Stimulated			MTD5	Does not specify MTD5
+GSE49828	Ben	N							
+GSE216671	Ben	D	T 	control	lycorine	tissue:;cell type:		lycorine	
+GSE211836	Ben	N							
+GSE130984	Ben	N							
+GSE207268	Ben	KD	T 	DMSO	auxin		starvation&INTS11-AID	INTS11	
+GSE207268	Ben	KD	T 	DMSO	auxin		steady&INTS11-AID	INTS11	
+GSE207268	Ben	D	T 	DMSO	EGF_EGF		starvation	EGF	Specified as Epidermal growth factor in pubmed article
+GSE207268	Ben	KD	T 	EGF_EGF	EGF_IAA		starvation	INTS11	Specified as Epidermal growth factor in pubmed article
+GSE207268	Ben	D	T 	DMSO	IFNB_IFNB		starvation	IFNB	Specified as interferon beta in pubmed article
+GSE207268	Ben	KD	T 	IFNB_IFNB	IFNB_IAA		starvation	INTS11	Specified as interferon beta in pubmed article
+GSE207268	Ben	KD	T 	DMSO	auxin		starvation&INTS9-AID	INTS9	
+GSE207268	Ben	KD	T 	DMSO	auxin		CPSF73-AID	CPSF73	
+GSE109881	Ben	N							
+GSE205668	Ben	N							
+GSE139627	Ben	N							
+GSE186051	Ben	OM	T 	IRF8 WT	IRF8 R294C			IRF8	
+GSE230928	Ben	Not RNA-seq							
+GSE146382	Ben(Q)	KD	T 	EGFP rep	Ush		Ush rep;EGFP rep	Ush	
+GSE146382	Ben(Q)	KD	T 	EGFP (for Ush-B)	Ush		Ush-B	Ush	Ush-B is an isoform of Ush
+GSE146382	Ben(Q)	KD	T 	EGFP rep	Mi-2			dMi-2	
+GSE210352	Ben	D	T 	Old_TM_pos 	Old_TM_pos_CD3_CD28_Stimulation			CD3&CD28	Double drug stimulation, none isolated
+GSE210352	Ben	D	T 	Old_VM_pos 	Old_VM_pos_CD3_CD28_Stimulation			CD3&CD28	Double drug stimulation, none isolated
+GSE88841	Ben	KO	T 	wild type	KO			AID	Alias for gene name AICDA
+GSE201979	Ben	KD	T 	siNC	siCDCA3			CDCA3	
+GSE247862	Ben(Q)	KO	T 	WT	KO		T0	Eomes	
+GSE247862	Ben(Q)	KO	T 	WT	KO		T12	Eomes	
+GSE247862	Ben(Q)	KO	T 	WT	KO		T24	Eomes	
+GSE247862	Ben(Q)	D	T 	T0	T12	genotype:		anti-CD3 antibody&anti-CD28	Stimulation by both anti-CD3 antibody and anti-CD28
+GSE247862	Ben(Q)	D	T 	T0	T24	genotype:		anti-CD3 antibody&anti-CD28	Stimulation by both anti-CD3 antibody and anti-CD28
+GSE124185	Ben	KO	T 	Wild-type	Mtg16 KO			Mtg16	Mtg16, which is mentioned in sample annotation, is an alias for Cbfa2t3 gene, which is mentioned in pubmed article
+GSE156329	Ben	N							
+GSE61348	Ben	D	T 	No Dox	mL Dox			doxycycline	
+GSE241353	Ben	N							
+GSE63818	Ben	N							
+GSE117945	Ben	N							
+GSE200206	Ben	KD	T 	Ctrl shRNA&glass	PIP4K2B			PIP4K2B	
+GSE165457	Ben	N							
+GSE117224	Ben	Not RNA-seq							
+GSE245187	Ben	KO	T 	WT 1928z_Day50	SUV39H1-edited			SUV39H1	Mutated using Crispr, Full LOF
+GSE245187	Ben	KO	T 	WT&scRNA	SUVKO&scRNA		Day 0		Perturbed gene name SUV39H1 not mentioned in sample description, is mentioned in study description
+GSE245187	Ben	KO	T 	WT&VDJ	SUVKO&VDJ		Day 0		Perturbed gene name SUV39H1 not mentioned in sample description, is mentioned in study description
+GSE245187	Ben	KO	T 	WT&VDJ	SUVKO&VDJ		Day 9		Perturbed gene name SUV39H1 not mentioned in sample description, is mentioned in study description
+GSE245187	Ben	KO	T 	WT&scRNA	SUVKO&scRNA		Day 16		Perturbed gene name SUV39H1 not mentioned in sample description, is mentioned in study description
+GSE148421	Ben	D	T 	0day	2day			DMSO	
+GSE148421	Ben	D	T 	0day	4day			DMSO	
+GSE242203	Ben	N							Overexpresses an exogenous gene
+GSE58765	Ben	KO	T 	Control	KO			DOCK8	
+GSE169163	Ben	KD	T 	wild type	ddx3xb morphants	age:		ddx3xb	
+GSE198024	Ben	Not RNA-seq							
+GSE210878	Ben(Q)	KD	T 	siCtrl	siINTS11	treatment:		INTS11	
+GSE85277	Ben	N							
+GSE124049	Ben	KO	T 	mRNA_rde-4_Gonads_	mRNA_sid-1_rde-4_Gonads_			sid-1	Full LOF
+GSE124049	Ben	OM	T 	mRNA_sid-1_rde-4_Gonads_	mRNA_Psng-1_rde-4_sid-1_Gonads_			rde-4	Knocked out then transgenic gene placed back in
+GSE89843	Ben	N							
+GSE228152	Ben(Q)	D	T 	IgG	Anifrolumab			Anifromulab	
+GSE116813	Ben	D	T 	Vehicle	THC		Mutant	Δ9-THC	
+GSE116813	Ben	D	T 	Vehicle	THC		Control	Δ9-THC	
+GSE116813	Ben	OM	T 	Control	mutant	treatment:		DISC1	
+GSE182888	Ben	KO	T 	WT	KO			JMJD6	
+GSE193454	Ben	KO	T 	WT	-/-			Colec11	
+GSE213666	Ben	N							
+GSE143215	Ben	N							
+GSE63088	Ben	N							
+GSE229578	Ben	N							
+GSE137675	Ben	N							
+GSE224294	Ben(Q)	KO	T 	WT	NGLY1-519			NGLY1	Full LOF
+GSE224294	Ben(Q)	OM	T 	WT	NGLY1-594			NGLY1	
+GSE224294	Ben(Q)	OM	T 	WT	NGLY1-KO			NGLY1	
+GSE173146	Ben	D	T 	DMSO	UM002		mouse 1	UM002	
+GSE173146	Ben	D	T 	DMSO	UM002		mouse 2	UM002	
+GSE196818	Ben	D	T 	Air	Ozone	condition:		Ozone	
+GSE145801	Ben	OM	T 	Wt	Mut	age:		scn1Lab	
+GSE39656	Ben	KD	T 	Scrambled Hairpin	Hairpin A	time:		AK143260	lncRNA
+GSE39656	Ben	KD	T 	Scrambled Hairpin	Hairpin B	time:		AK143260	lncRNA
+GSE152506	Ben	OM	T 	B0	N0	age:		APP	3 different APP mutations studying AD in this mouse line
+GSE171657	Ben	D	T 	DMSO	4OHT	time point:		4OHT;hydroxytamoxifen	
+GSE88187	Ben	Not RNA-seq							
+GSE110042	Ben	N							Supernatant vs. immunoprecipitant not a valid study
+GSE182735	Ben	N							
+GSE207442	Ben	N							does not specify which anti-inflammatory compounds are being used. 
+GSE64779	Ben	KO	T 	Control	Id3KO			Id3	
+GSE64779	Ben	KO	T 	Id3KO	CD4SP_dKO			Id2	
+GSE133381	Ben	KD	T 	siCTRL	siZMIZ1	treatment:;cell line:;time point of treatment:;passage:		ZMIZ1	
+GSE133381	Ben	D	T 	EtOH	Oestrogen	condition:;cell line:;time point of treatment:;passage:		Oestrogen	
+GSE243650	Ben(Q)	D	T 	rTg4510 [	rTg4510+3TC	Sex:		3TC	Drug specified as Lamivudine in study description
+GSE140137	Ben(Q)	OE	T 	Col-0	COLDAIR			COLDAIR	COLDAIR is a lncRNA on the gene FLC, not a gene with an entrez id
+GSE141035	Ben	N							
+GSE122843	Ben(Q)	D	T 	DMSO	IBET_9wks			I-BET151	
+GSE120201	Ben	D	G	GSM3395920;3395921	GSM3395918;GSM3395919			DMOG	Specified as dimethyloxalylglycine in pubmed article
+GSE120201	Ben	D	G	GSM3395920;3395921	GSM3395925;GSM3395926;GSM3395927			DRB	Specified as 5,6dichlorobenzimidazone-1-β-D-ribofurano-side in pubmed article
+GSE120201	Ben	D	G	GSM3395920;3395921	GSM3395916;GSM3395917			doxycycline	
+GSE120201	Ben	D	G	GSM3395925;GSM3395926;GSM3395927	GSM3395922;GSM3395923;GSM3395924			doxycycline	
+GSE120201	Ben	D	G	GSM3395916;GSM3395917	GSM3395922;GSM3395923;GSM3395924			DRB	Specified as 5,6dichlorobenzimidazone-1-β-D-ribofurano-side in pubmed article
+GSE120201	Ben	D	G	GSM3395918;GSM3395919	GSM3395914;GSM3395915			doxycycline	
+GSE120201	Ben	D	G	GSM3395916;GSM3395917	GSM3395914;GSM3395915			DMOG	Specified as dimethyloxalylglycine in pubmed article
+GSE239661	Ben	KO	T 	wild type	-/-			Tent5b&Tent5c	Double knockout, neither gene isolated
+GSE144291	Ben	D	T 	PBS	amoxapine			amoxapine	
+GSE144291	Ben	D	T 	PBS	doxapram			doxapram	
+GSE144291	Ben	D	T 	PBS	trifluoperazine			trifluoperazine	
+GSE78961	Ben	KO	T 	+/+	+/-	parental cell line id:;assayed molecule:		TSC2	
+GSE78961	Ben	KO	T 	+/+	-/-	parental cell line id:;assayed molecule:		TSC2	
+GSE78961	Ben	KO	T 	+/-	-/-	parental cell line id:;assayed molecule:		TSC2	
+GSE78961	Ben	D	T 	+/+&DMSO	+/+&Rapamycin	parental cell line id:;assayed molecule:		Rapamycin	
+GSE78961	Ben	D	T 	+/+&DMSO	+/+&AZD-8055	parental cell line id:;assayed molecule:		AZD-8055	
+GSE78961	Ben	D	T 	-/-&DMSO	-/-&Rapamycin	parental cell line id:;assayed molecule:		Rapamycin	
+GSE78961	Ben	D	T 	-/-&DMSO	-/-&AZD-8055	parental cell line id:;assayed molecule:		AZD-8055	Did not compare KO + Drug to just KO or just Drug because different cell lines
+GSE96922	Ben	OM	T 	HWT	K36R	Sex:;target molecule:			Gene H3 mentioned in study description not sample description
+GSE129226	Ben	N							
+GSE192585	Ben	KO	T 	WT	Het			notch3	
+GSE192585	Ben	KO	T 	WT	KO			notch3	
+GSE192585	Ben	KO	T 	Het	KO			notch3	
+GSE209912	Ben	N							
+GSE219682	Ben	N							
+GSE155383	Ben	N							
+GSE88300	Ben	N							
+GSE123862	Ben	KO	T 	wild type	mutant	age:		mir-83	full loss of function mutation
+GSE146072	Ben	KO	T 	control	downregulated			KIAA1522	KIAA1522 is an alias for NHSL3 gene on marrvel
+GSE191102	Ben	Not RNA-seq							
+GSE163852	Ben	N							
+GSE172629	Ben	KO	T 	Cre(-/-)	Cre(+/-)		HCC	Pten	
+GSE172629	Ben	KO	T 	Cre(-/-)	Cre(+/-)		non-tumor liver	Pten	
+GSE227848	Ben	D	T 	control	DMOG			DMOG;dimethyloxalylglycine	
+GSE245658	Ben	N							5xFAD is a cell line for AD, has 5 distinct mutations, not just one
+GSE158098	Ben	KO	T 	WT	-/-			runx1	
+GSE185369	Ben	N							Antibiotic treatment consisted of 3 antibiotics ampicillin/doxycycline/kanamycin, not just one
+GSE107562	Ben(Q)	N							Testing a depletion of nitrogen
+GSE163946	Ben	D	T 	control PBS	IL2		1.5h&2017-05	mIL-2	
+GSE163946	Ben	D	T 	IL2	FP		1.5h&2017-05	CD25	
+GSE163946	Ben	D	T 	control PBS	IL2		4h	mIL-2	
+GSE163946	Ben	D	T 	IL2	FP		4h	CD25	
+GSE163946	Ben	D	T 	control PBS	IL2		16h	mIL-2	
+GSE163946	Ben	D	T 	IL2	FP		16h	CD25	
+GSE163946	Ben	D	T 	control PBS	IL2		72h	mIL-2	
+GSE163946	Ben	D	T 	IL2	FP		72h	CD25	
+GSE163946	Ben	D	T 	control PBS	FP		168h	mIL-2&CD25	Double drug treatment, none isolated
+GSE163946	Ben	D	T 	control PBS	IL2		In-Vitro	mIL-2	
+GSE163946	Ben	D	T 	control PBS	IL2		High-Dose	mIL-2	
+GSE163946	Ben	D	T 	control PBS and PBS	control PBS and single mIL-2/CD25			mIL-2&CD25	Double drug treatment, none isolated
+GSE163946	Ben	D	T 	control PBS and single mIL-2/CD25	mIL-2/CD25 and 2nd mIL-2/CD25			mIL-2&CD25	Double drug treatment, none isolated
+GSE163946	Ben	D	T 	control PBS and PBS	mIL-2/CD25 and 2nd mIL-2/CD25			mIL-2&CD25	Double drug treatment, none isolated
+GSE214412	Ben	KO	T 	WT	ABCG1KO			ABCG1	
+GSE214412	Ben	KO	T 	WT	LysM-DKO				global knockout of epsin 2 and conditional knockout of epsin 1. Gene abbreviations EPN1 and EPN2 not mentioned in sample/study annotations or pubmed article, lengthened names epsin 1 and 2 mentioned only in pubmed article
+GSE84252	Ben	OM	T 	homozygous for wild-type B6J allele	homozygous for mutant B6NJ allele	Sex:			Perturbed gene Cyfip2 mentioned in study annotation, not sample annotation
+GSE117020	Ben	N							
+GSE79735	Ben	KD	T 	Nontargeting	shRNA #1		3691	RBPJ	
+GSE79735	Ben	KD	T 	Nontargeting	shRNA #2		3691	RBPJ	
+GSE79735	Ben	KD	T 	Nontargeting	shRNA #1	treatment 2:	4121	RBPJ	
+GSE79735	Ben	KD	T 	Nontargeting	shRNA #2	treatment 2:	4121	RBPJ	
+GSE79735	Ben	D	T 	DMSO	DAPT		3691	DAPT	Only shortened name of drug mentioned in study annotation, lengthened name (N-[N-(3,5-difluorophenacetyl)-L-alanyl]-S-phenylglycine t-butyl ester) in pubmed article
+GSE79735	Ben	D	T 	DMSO	DAPT	treatment 1:	4121	DAPT	Only shortened name of drug mentioned in study annotation, lengthened name (N-[N-(3,5-difluorophenacetyl)-L-alanyl]-S-phenylglycine t-butyl ester) in pubmed article
+GSE120874	Ben(Q)	KO	G	GSM3735153;GSM3735154	GSM3735151;GSM3735152			Bcl11b	
+GSE207085	Ben	N							
+GSE136905	Ben	D	T 	Stim	IL6			recombinant IL-6	
+GSE225570	Ben	Not RNA-seq							
+GSE260787	Ben	D	T 	 UT 	 OM100 	subject:	2hr	OM-85	
+GSE260787	Ben	D	T 	 UT 	 OM300 	subject:	2hr	OM-85	
+GSE260787	Ben	D	T 	 UT 	 OM900 	subject:	2hr	OM-85	
+GSE260787	Ben	D	T 	 UT 	 OM100 	subject:	8hr	OM-85	
+GSE260787	Ben	D	T 	 UT 	 OM300 	subject:	8hr	OM-85	
+GSE260787	Ben	D	T 	 UT 	 OM900 	subject:	8hr	OM-85	
+GSE260787	Ben	D	T 	UT+Isotype Control Ab	OM-85 300ug/ml 2hr+Isotype Control Ab	subject:		OM-85	
+GSE260787	Ben	D	T 	UT+Isotype Control Ab	LPS 1ng/ml+Isotype Control Ab	subject:		LPS	
+GSE260787	Ben	D	T 	UT+Isotype Control Ab	Pam3CSK4 10ng/ml+Isotype Control Ab	subject:		Pam3CSK4	
+GSE260787	Ben	D	T 	OM-85 300ug/ml 2hr+Isotype Control Ab	OM-85 300ug/ml 2hr+Anti-TLR2 Ab	subject:		Anti-TLR2	
+GSE260787	Ben	D	T 	OM-85 300ug/ml 2hr+Isotype Control Ab	OM-85 300ug/ml 2hr+Anti-TLR4 Ab	subject:		Anti-TLR4	
+GSE260787	Ben	D	T 	OM-85 300ug/ml 2hr+Anti-TLR4 Ab	OM-85 300ug/ml 2hr+Anti-TLR2/4 Ab	subject:		Anti-TLR2	
+GSE260787	Ben	D	T 	OM-85 300ug/ml 2hr+Anti-TLR2 Ab	OM-85 300ug/ml 2hr+Anti-TLR2/4 Ab	subject:		Anti-TLR4	
+GSE227117	Ben	N							
+GSE111150	Ben	N							
+GSE154638	Ben	N							No control samples in this series
+GSE185042	Ben	KO	T 	WT	KO	tissue:		Nrg4	
+GSE185042	Ben	D	G	GSM6061463:GSM6061464:GSM6061465	GSM6061466;GSM6061467			Fc-Nrg4	
+GSE155008	Ben	D	T 	untreated	talc	time:		talc	talc specified as hydrous magnesium silicate, 3MgO·4SiO2·H2O in pubmed article, not study annotation
+GSE171998	Ben	N							
+GSE161540	Ben	D	T 	Con	TTX			TTX	Drug specified as tetrodotoxin in study description
+GSE133028	Ben(Q)	N							
+GSE104547	Ben	KO	T 	wildtype&18C	CCR4			CCR4	
+GSE104547	Ben	KO	T 	wildtype&18C	red1D			red1	
+GSE104547	Ben	KO	T 	wildtype&18C	ago1D			ago1	
+GSE104547	Ben	KO	T 	wildtype&30C	clr6			clr6	Temperatures are contradicting
+GSE104547	Ben	KO	T 	wildtype&30C	clr4			clr4	
+GSE104547	Ben	KO	T 	wildtype&18C	rrp6			rrp6	
+GSE104547	Ben	D	T 	wildtype&18C	2,2'			2,2'-Bipyridyl	
+GSE104547	Ben	KO	T 	wildtype&18C	clr4			clr4	
+GSE104547	Ben	KO	T 	wild type	clr4		NETSEQ	clr4	Deletion mutation
+GSE208445	Ben	N							
+GSE255633	Ben(Q)	OM	T 	WT	SCA1	tissue:		SCA1	SCA1 is another name for ATXN1 gene
+GSE59611	Ben	OE	T 	background	overexpressing			Orb2	Supernatant vs. pellet not a valid experiment
+GSE70101	Ben	N							
+GSE126027	Ben	KO	T 	wild-type	Kmt2d +/mut	cell type:		Kmt2d	complete LOF mutation
+GSE179491	Ben	KO	T 	WT	KO		Naïve	Brd4	
+GSE179491	Ben	KO	T 	WT	KO		18hr	Brd4	
+GSE179491	Ben	D	T 	Naïve	18hr	genotype:		anti-CD3&CD28 antibody	Two drug treatment, none isolated
+GSE144360	Ben	KO	T 	WT	KO			miR140	
+GSE166328	Ben	OE	T 	BY4741	LCY001		GE	HIS3	
+GSE166328	Ben	OE	T 	BY4741	LCY001		Glc	HIS3	
+GSE166328	Ben	OE	T 	BY4741	LCY001		Gal	HIS3	
+GSE163007	Ben	KO	T 	hrt-Ler-br	hrt-asil2-2-br			asil2	Full LOF mutation
+GSE163007	Ben	OM	T 	hrt-Col-br	hrt-asil2-1-br			asil2	
+GSE163007	Ben	KO	T 	hrt-Col-br	hrt-asil1-1-br			asil1	Full LOF mutation
+GSE163007	Ben	KO	T 	hrt-asil1-1-br	hrt-asil1-1-2-2-br			asil2	Full LOF mutation
+GSE163007	Ben	KO	T 	hrt-asil2-2-br	hrt-asil1-1-2-2-br			asil1	Full LOF mutation
+GSE163007	Ben	KO	T 	hrt-asil2-1-br	hrt-asil1-1-2-1-br			asil1	Full LOF mutation
+GSE163007	Ben	OM	T 	hrt-asil1-1-br	hrt-asil1-1-2-1-br			asil2	
+GSE213352	Ben	N							
+GSE139321	Ben	D	T 	Schwann Cell Control	Schwann Cell cAMP			CPT-cAMP	
+GSE139321	Ben	KO	T 	Parental	ΔSOX10			SOX10	
+GSE196139	Ben	KO	T 	Wild-type	KO	treatment:		Cdc14ab	
+GSE134098	Ben	N							
+GSE247992	Ben	KO	T 	Krt14-Cre(-)	Krt14-Cre(+)				Gene name not explicitly mentioned in sample/study annotations
+GSE163232	Ben	D	T 	DMSO	8800			8800	Drug specified as H3B-8800 in study description
+GSE99405	Ben	N							
+GSE45137	Ben	N							
+GSE234495	Ben	KO	T 	Loxp	Cre	treatment:		Acot2	
+GSE142034	Ben	N							GFP does not change Histone 4 protein function, only used to sort
+GSE86381	Ben	N							
+GSE248760	Ben	N							
+GSE173829	Ben(Q)	OE	T 	Untransduced	BRAF-WT	donor:		BRAF	
+GSE173829	Ben(Q)	OM	T 	BRAF-WT	BRAF-V600E	donor:		BRAF	
+GSE101939	Ben	KO	T 	H2AZfl/fl	H2AZcKO			H2AZ	H2AZ is an alias for gene H2AZ1
+GSE211466	Ben	N							No valid comparison
+GSE221569	Ben	N							
+GSE232044	Ben	D	T 	untreated	Baricitinib			Baricitinib	
+GSE232044	Ben	D	T 	untreated	Upadacitinib			Upadacitinib	
+GSE207928	Ben	KO	T 	Control	KO		3m	ABCA1	
+GSE207928	Ben	KO	T 	Control	KO		12m	ABCA1	
+GSE178774	Ben	D	T 	control	T-treatment	tissue:			Drug specified as testosterone in study description
+GSE250373	Ben	KO	T 	wt	∆mftG	treatment:		mftG	deletion mutation
+GSE196610	Ben(Q)	D	T 	Senescence Parkin: Parkin_Sen	Senescence Parkin +CCCP: Parkin_Sen			CCCP	Specified as carbonyl cyanide m-chlorophenyl hydrazine in pubmed article
+GSE196610	Ben(Q)	D	T 	Senescence Parkin +CCCP: Parkin_Sen	Senescence Parkin +CCCP+mtDNA			mtDNA	mitochondrial DNA
+GSE196610	Ben(Q)	KO	T 	LentiCRISPR v2-puro	LentiCRISPR v2 hBAK	treatment:		BAX&BAK	Double gene knockout, none isolated; BAK is an alias for BAK1
+GSE223646	Ben	N							
+GSE75160	Ben	KD	T 	mock	ets4RNAi			ets4	alias for ETV4
+GSE85591	Ben(Q)	OE	T 	wt_met	PADH1-GCN4_met			GCN4	
+GSE85591	Ben(Q)	OM	T 	PADH1-GCN4_met	PADH1-GCN4S242L_met			GCN4	
+GSE85591	Ben(Q)	KO	T 	wt_rep	drpl15b			rpl15b	
+GSE85591	Ben(Q)	KO	T 	wt_rep	drpl6a			rpl6a	
+GSE85591	Ben(Q)	KO	T 	wt_rep	drps27b			rps27b	
+GSE85591	Ben(Q)	KO	T 	wt_rep	drpl7a			rpl7a	
+GSE85591	Ben(Q)	KO	T 	wt_rep	drpl9a			rpl9a	
+GSE95617	Ben	D	T 	PBS	β-glucan		HSC&day7	β-glucan	
+GSE95617	Ben	D	T 	PBS	β-glucan		HSC&day28	β-glucan	
+GSE95617	Ben	D	T 	PBS	β-glucan		HSC&5FU	β-glucan	
+GSE95617	Ben	D	T 	PBS	β-glucan		MPP	β-glucan	
+GSE205992	Ben	N							
+GSE132759	Ben	OE	T 	NE central (CGRP-C)	NE central (CGRP-FGFR1)			FGFR1	
+GSE132759	Ben	OE	T 	NE central (CGRP-C)	NE central (CGRP-Mycl)			Mycl	
+GSE118081	Ben	N							
+GSE144830	Ben	D	T 	DMSO	TMP269			TMP269	
+GSE235531	Ben	KO	T 	Wild-type	KO			EPAS1	
+GSE235531	Ben	D	T 	DMSO	Daprodustat			Daprodustat	
+GSE94594	Ben(Q)	D	T 	CNT;HFHS1;HFHS2;HFHS3	Curcumin			Curcumin	
+GSE94594	Ben(Q)	D	T 	CNT;HFHS1;HFHS2;HFHS3	Calcitriol			Calcitriol	
+GSE94594	Ben(Q)	D	T 	EL	CL		N	curcumin	
+GSE94594	Ben(Q)	D	T 	EL	CL		P	curcumin	
+GSE33178	Ben	N							
+GSE198147	Ben(Q)	N							No valid overexpression experiments as RDR1 has no orthologs in humans
+GSE199226	Ben	N							Does not outline distict chemical difference between ENR and Hpb-CM
+GSE173713	Ben	D	T 	veh	HPBCD			HPBCD	Specified as 2-Hydroxypropyl-β-cyclodextrin in pubmed article
+GSE228264	Ben	N							
+GSE181504	Ben	D	T 	minus	plus	strain:;timepoint:		MSG	Specified as monosodium glutamate in study description
+GSE250148	Ben(Q)	N							
+GSE178884	Ben	KO	G	GSM5399909;GSM5399910	GSM5399911;GSM5399912			Mettl3	
+GSE205777	Ben	D	T 	DMSO	DL-sulforaphane			DL-sulforaphane	
+GSE205777	Ben	D	T 	DMSO	Tucidinostate			Tucidinostat	Typo: Tucidinostate
+GSE214291	Ben	N							
+GSE210778	Ben	D	T 	non-specific	miRNA-375 mimics			miRNA-375 mimics	
+GSE97404	Ben	N							
+GSE133067	Ben	N							
+GSE102139	Ben	N							
+GSE236475	Ben	KO	T 	WT	ADM_knockout		D0;TSC culture	ADM	TSC culture and TSC diferentiation are being stratified but not tested. Experiment is WT vs. KO in different cell types
+GSE236475	Ben	KO	T 	WT	ADM_knockout	cell type:	D2	ADM	TSC culture and TSC diferentiation are being stratified but not tested. Experiment is WT vs. KO in different cell types
+GSE236475	Ben	KO	T	WT	ADM_knockout	cell type:	D4	ADM	TSC culture and TSC diferentiation are being stratified but not tested. Experiment is WT vs. KO in different cell types
+GSE198556	Ben	N							
+GSE255484	Ben(Q)	D	T 	IgG2b	anti-CTLA-4			anti-CTLA-4	Not stratifying by tumor response
+GSE211945	Ben	KD	T 	WT	SMAD3			SMAD3	
+GSE211945	Ben	KD	T 	WT	SMAD2			SMAD2	
+GSE211945	Ben	KD	T 	WT	SMAD4			SMAD4	
+GSE128515	Ben(Q)	D	T 	FBS	E7107	cell line:	Prostate cancer cell line	E7107	
+GSE128515	Ben(Q)	D	T 	Vehicle	E7107	xenograft:	Xenograft	E7107	
+GSE247720	Ben	KD	T 	shcControl	shDHX15-			DHX15	
+GSE247720	Ben	D	T 	shDHX15-	shDHX15+			MYC	MYC is a protein
+GSE219699	Ben	N							No control samples in this series
+GSE90020	Ben	KO	T 	WT	KO	tissue/cell type:		Phf8	
+GSE63475	Ben	KD	T 	control sample	DICER1			DICER1	
+GSE63475	Ben	KD	T 	control sample	DROSHA			DROSHA	
+GSE214558	Ben	N							No control samples in this series
+GSE215756	Ben	N							
+GSE174713	Ben	N							
+GSE262427	Ben	KO	T 	WT	KO		oxLDL		Gene name WEE1 only mentioned in study description, not sample description
+GSE262427	Ben	KO	T 	WT	KO		T1;T2;T3;O1;O2;O3		Gene name WEE1 only mentioned in study description, not sample description
+GSE262427	Ben	D	T 	T1;T2;T3;O1;O2;O3	oxLDL	genotype:		oxLDL	
+GSE188659	Ben	KO	T 	WT	KO			Tbk1	
+GSE165450	Ben	KD	G	GSM5033918;GSM5033919	GSM5033916;GSM5033917			CDH18	
+GSE70542	Ben	KO	T 	CT	KO	gender:		Ptf1a	
+GSE148572	Ben	Not RNA-seq							
+GSE56888	Ben	N							
+GSE196597	Ben	KD	T 	GFP	sh2			LAMC2	
+GSE190607	Ben	D	T 	AD	AD_PLX			PLX	Drug specified as PLX5622 in study description; 3 different mutations in 3xTg mouse model
+GSE174753	Ben	N							
+GSE239979	Ben	N							
+GSE149523	Ben	KD	T 	none	shMCM7	cell line:;dox treatment:		MCM7	
+GSE149523	Ben	D	T 	No Dox	Dox 72h	cell line:;knockdown:		Dox	Specified as doxycycline in study description
+GSE199429	Ben	N							
+GSE88856	Ben	KO	T 	Rosa-CreER	Jnk1-/- Jnk2-/-	culture:		Jnk1&Jnk2	Knockout of two genes, none isolated; Jnk1 and Jnk2 aliases for MAPK8 and MAPK9, respectively, also noted in pubmed article
+GSE81949	Ben	N							
+GSE194371	Ben	N							
+GSE121092	Ben(Q)	N							Does not fit any category that we have classified
+GSE241934	Ben	N							
+GSE241852	Ben	KO	T 	NEO	KO	treatment:		GRHL2	
+GSE241852	Ben	D	T 	NT	PolyIC	genotype:		PolyIC	
+GSE113210	Ben	N							
+GSE133433	Ben	N							Crosses cell lines with many mutations, does not isolate one
+GSE98248	Ben(Q)	OE	T 	CTRL	6 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	12 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	18 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	24 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	30 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	36 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	42 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	48 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	54 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	60 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	66 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	72 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	78 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	84 hours			TFEB	
+GSE98248	Ben(Q)	OE	T 	CTRL	90 hours			TFEB	
+GSE135198	Ben	KO	T 	WT 1;WT 2;WT 3	DKO 1;DKO 2;DKO 3			LDLR	Double knockout: LDLR and LEP, however LEP not mentioned in sample/study annotation, referred to as ob/ob and no pubmed article; Knockout of two genes, none isolated
+GSE135198	Ben	KO	T 	WT_	DKO_			LDLR	Knockout of two genes, none isolated; Lep not mentioned in study annotation, referred to as ob/ob, no pubmed article
+GSE135198	Ben	KO	T 	WT ACE	DKO ACE	treatment:		LDLR	Knockout of two genes, none isolated; Lep not mentioned in study annotation, referred to as ob/ob, no pubmed article
+GSE135198	Ben	D	T 	WT 	WT ACE-I 			captopril	
+GSE135198	Ben	D	T 	DKO 	DKO ACE-I 			captopril	
+GSE135198	Ben	D	T 	T_HPC;O_HPC	ACE-I_	genotype:		captopril	
+GSE152489	Ben	N							
+GSE101117	Ben	N							
+GSE103169	Ben	KO	T 	WT	mutant				Gene name wwtr1 only mentioned in study description, not sample description; Loss of function mutation, truncated protein
+GSE219958	Ben	N							No control samples in this series
+GSE188821	Ben	N							Absence of a drug/drugs
+GSE197858	Ben	N							
+GSE74019	Ben	KO	T 	Hhex+/fl	Hhex-/fl	tissue:		Hhex	
+GSE101167	Ben(Q)	N							siRNA has many off-target effects
+GSE134757	Ben	N							
+GSE140266	Ben	KO	T 	WT	MIN_tissue_Control			Apc	Nonsense mutation
+GSE140266	Ben	D	T 	Control	DMaKG			DMaKG	
+GSE155306	Ben	KD	T 	WT	MYB134RNAi			MYB134	
+GSE226273	Ben	D	T 	WT	Model			Na2SeO3	
+GSE201421	Ben	D	T 	untreated	cdN mRNA	time point:		cdN mRNA	From Pubmed article: human 5′-nucleotidase mRNA
+GSE201421	Ben	D	T 	untreated	NT5M mRNA	time point:		NT5M mRNA	human gene NT5M mRNA
+GSE201421	Ben	D	T 	untreated	CT mRNA	time point:		CT mRNA	From Pubmed article: cytosolic thymidylate 5'-phosphohydrolase mRNA
+GSE104445	Ben(Q)	D	T 	control	miR-34a-5p	genotype:		miR-34a-5p	
+GSE104445	Ben(Q)	D	T 	control	miR-124a-3p	genotype:		miR-124a-3p	
+GSE104445	Ben(Q)	KO	T 	293/WT	293/Dicer KO	treatment:		Dicer	Alias for DICER1
+GSE156634	Ben	N							Two genes tagged with a GFP, no control
+GSE53450	Ben	N							
+GSE115404	Ben	N							
+GSE175245	Ben	N							
+GSE101340	Ben(Q)	D	T 	WT veh	WT TMX			Tamoxifen	
+GSE101340	Ben(Q)	D	T 	G17V veh	G17V TMX			Tamoxifen	
+GSE101340	Ben(Q)	KO	T 	WT TMX	G17V TMX			RhoA	
+GSE101340	Ben(Q)	OM	T 	WT TMX	G17V TMX			RhoA	
+GSE101340	Ben(Q)	KO	T 	G17V veh	G17V TMX			RhoA	
+GSE101340	Ben(Q)	OM	T 	G17V veh	G17V TMX			RhoA	
+GSE264589	Ben	D	T 	vehicle	TNF		non-targeting guide	TNF;TNFα	
+GSE264589	Ben	D	T 	vehicle	TNF		PIAS1-targeted	TNF;TNFα	
+GSE264589	Ben	KO	T 	non-targeting guide	PIAS1-targeted		vehicle	PIAS1	
+GSE264589	Ben	KO	T 	non-targeting guide	PIAS1-targeted		TNF	PIAS1	
+GSE129024	Ben	N							
+GSE199753	Ben	N							
+GSE214575	Ben	KO	T 	Control	KO			Kdm6b	
+GSE74263	Ben	OM	T 	WT	L254F			OGT	
+GSE148723	Ben(Q)	OE	T 	infected with control	infected with SYT-SSX [C3H			SYT-SSX	Fusion gene
+GSE148723	Ben(Q)	KO	T 	SYT-SSX then pLKO control	SYT-SSX then CRE recombinase			SYT-SSX	Knocking out a fusion gene
+GSE163591	Ben(Q)	D	T 	NaIO3 	NaIO3-CaPB 			CaPB	Study annotation does not specify what CaPB is
+GSE259284	Ben	N							
+GSE241702	Ben	N							
+GSE234501	Ben	KO	T 	PN Macrophage	PNCCR Macrophage	Sex:		CCR	CCR does not map to any valid entrez gene id
+GSE234501	Ben	KO	T 	PN Tumor Rep	(CCRko/ko)		Male	CCR	CCR does not map to any valid entrez gene id
+GSE234501	Ben	OE	T 	P Tumor	PN Tumor Rep	Sex:		Notch1	
+GSE234501	Ben	D	T 	PN Tumor Rep	PN Tumor AZD7507		Male	AZD7507	
+GSE234501	Ben	KO	T 	PN Tumor Rep	(iCcr-/-)		Female	iCcr	iCcr does not map to any valid entrez gene id
+GSE234501	Ben	OE	T 	BPT Tumor	BPNT Tumor			Notch1	
+GSE97463	Ben	N							
+GSE201432	Ben	N							
+GSE156903	Ben	D	T 	DMSO	VCS			VCS;Voclosporin	
+GSE156903	Ben	D	T 	DMSO	TAC			TAC;tacrolimus	
+GSE220540	Ben	KO	T 	CDKN2A WT	CDKN2A KO		Diaphragm Tumor	CDKN2A	
+GSE220540	Ben	KO	T 	CDKN2A WT	CDKN2A KO		Lung Tumor	CDKN2A	
+GSE57694	Ben	N							
+GSE89250	Ben	Not RNA-seq							No library strategy for any samples
+GSE164737	Ben	N							
+GSE167420	Ben	KO	T 	WT	BATFKO			BATF	
+GSE167420	Ben	D	T 	us	stim				Drug anti-CD3 mentioned in sample description, but in the wrong context. Mentioned in study description correctly.
+GSE199280	Ben	N							
+GSE148061	Ben	N							
+GSE111374	Ben	N							
+GSE207069	Ben	N							
+GSE220607	Ben	N							
+GSE87855	Ben	KO	T 	WT	MeCP2			MeCP2	
+GSE100694	Ben(Q)	D	T 	LOUCY_Untreated	LOUCY_DMSO	experiment number:		DMSO	
+GSE100694	Ben(Q)	D	T 	LOUCY_Untreated	LOUCY_JQ1	experiment number:		JQ1	
+GSE100694	Ben(Q)	D	T 	LOUCY_Untreated	LOUCY_IBET151	experiment number:		IBET151	
+GSE107646	Ben	N							
+GSE217525	Ben(Q)	N							PS19 cell line not a valid drug treatment; No control for Thapsigargin
+GSE164668	Ben	N							
+GSE115367	Ben	OM	T 	WT	AP	Sex:	Colon	Atoh1	
+GSE115367	Ben	OM	T 	WT	AP	Sex:	Small intestine	Atoh1	
+GSE212529	Ben	N							No control samples in this series
+GSE185479	Ben	N							
+GSE193095	Ben	KO	T 	wt	brm			brm	
+GSE193095	Ben	KO	T 	wt	brd1213			brd1&brd2&brd13	Knockout of three genes, none isolated
+GSE193095	Ben	KO	T 	wt	brip12			brip1&brip2	Knockout of two genes, none isolated
+GSE193095	Ben	KO	T 	wt	syd			syd	
+GSE193095	Ben	KO	T 	wt	swi3d			swi3d	
+GSE193095	Ben	KO	T 	wt	sys123			sys1&sys2&sys3	Knockout of three genes, none isolated
+GSE193095	Ben	KO	T 	wt	minu12			minu1&minu2	Knockout of two genes, none isolated
+GSE193095	Ben	KO	T 	wt	pms2ab			pms2a&pms2b	Knockout of two genes, none isolated
+GSE193095	Ben	KO	T 	wt	swp73b			swp73b	
+GSE193095	Ben	KO	T 	wt	bcl7a/b			bcl7a&bcl7b	Knockout of two genes, none isolated
+GSE193095	Ben	KO	T 	wt	an3			an3	
+GSE66484	Ben	D	T 	PDGF Rep	PDGF + PD325901		4hr	PD325901	
+GSE66484	Ben	D	T 	FGF Rep	FGF + PD325901		4hr	PD325901	
+GSE66484	Ben	D	T 	PDGF Rep	PDGF + LY294002		4hr	LY294002	
+GSE66484	Ben	D	T 	FGF Rep	FGF + LY294002		4hr	LY294002	
+GSE197821	Ben(Q)	N							
+GSE224082	Ben	KD	T 	WT	KD			LSD1	Alias for KDM1A
+GSE224082	Ben	D	T 	diluent	TCP	cell line:		TCP	TCP specified as tranylcypromine in pubmed article
+GSE109157	Ben	D	T 	IL2 CD8	IL2 TCR CD8			SIINFEKL	
+GSE109157	Ben	D	T 	IL2 CD8	IL2 IL4 CD8			IL4	
+GSE109157	Ben	D	T 	IL2 TCR CD8	IL2 IL4 TCR CD8			IL4	
+GSE109157	Ben	D	T 	IL2 IL4 CD8	IL2 IL4 TCR CD8			SIINFEKL	
+GSE228275	Ben	N							Many different mutations across cell lines
+GSE119794	Ben	N							
+GSE113237	Ben	Not RNA-seq							
+GSE189726	Ben	KO	T 	Null	Cre			Mdm2	
+GSE120693	Ben	OE	T 	(control plasmid)	overexpression			HMGB1	
+GSE120693	Ben	KD	T 	transfected with empty vector	HMGB1 shRNA			HMGB1	
+GSE58702	Ben	Not RNA-seq							
+GSE104525	Ben	N							
+GSE59831	Ben	N							Does not isolate mutation;Cell line has 2 mutations, an OM and a KO
+GSE191087	Ben	N							
+GSE156588	Ben	N							
+GSE131231	Ben	KD	T 	Non-target control	Bromo+/-				Gene name EP300 only mentioned in study description, not sample description
+GSE220914	Ben(Q)	KO	T 	WTCtrl	A_E4			Zdhhc20	
+GSE186633	Ben	KO	T 	WT	KO	treatment:		CHD1	
+GSE186633	Ben	D	T 	DMSO	Alisertib	genotype:		Alisertib	
+GSE216546	Ben	D	T 	DMSO	quercetin			quercetin	
+GSE169549	Ben	Not RNA-seq							
+GSE180909	Ben	KD	T 	si-NC	si-METTL3			METTL3	
+GSE17107	Ben	N							
+GSE123320	Ben	D	T 	Medium only	SC#			IL-2&IL-15	Does not isolate drug, two drugs IL-2 and IL-15 used
+GSE123320	Ben	D	T 	SC#	TH9-PC			TGF-beta	
+GSE166345	Ben	N							Does not isolate a single chemo drug
+GSE165246	Ben	KD	T 	shScramble	shTMEFF2	growth condition:		TMEFF2	
+GSE165246	Ben	D	T 	vehicle	DHT	shRNA:		DHT	DHT specified as dihydrotestosterone in pubmed article
+GSE223405	Ben	OE	T 	Vector	BAZ1A trans	treatment:;cell line:		BAZ1A	
+GSE223405	Ben	D	T 	Vehicle	1α,25(OH)2D3	vector:;cell line:		1α,25(OH)2D3	
+GSE186199	Ben	N							
+GSE223223	Ben	N							
+GSE207830	Ben	OM	G	GSM6320785;GSM6320786;GSM6320789;GSM6320790	GSM6320783;GSM6320784;GSM6320787;GSM6320788	method:		IDH2	
+GSE207830	Ben	D	T 	DMSO	AG221	method:;time:		AG-221	
+GSE135310	Ben	N							
+GSE243210	Ben	KO	T 	WT	C5aR knockout			C5aR	C5aR is an alias for C5aR1
+GSE162275	Ben	N							Does not specify what R is
+GSE198235	Ben(Q)	OM	T 	PiZZ61.MM	PiZZ61.MZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	PiZZ61.MM	PiZZ61.ZZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	PiZZ61.MZ	PiZZ61.ZZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	WA_PIZZ1MM	WA_PIZZ1MZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	WA_PIZZ1MM	WA_PIZZ1ZZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	WA_PIZZ1MZ	WA_PIZZ1ZZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE198235	Ben(Q)	OM	T 	iHeps&MM	iHeps&ZZ				Does not mention gene SERPINA1 in sample or study description, only pubmed article
+GSE56725	Ben	N							
+GSE176054	Ben	N							
+GSE185904	Ben	KD	T 	shCtrl	sh1			Smad7	
+GSE185904	Ben	KD	T 	shCtrl	sh2			Smad7	
+GSE250001	Ben	N							
+GSE141409	Ben	KO	T 	WTAM	HapXam			HapX	
+GSE244858	Ben	D	T 	control	diquat			diquat	
+GSE252250	Ben (Q)	D	T 	Tg	TUDCA			TUDCA;tauroursodeoxycholic acid	wt not a valid control for transgenic
+GSE114135	Ben	N							
+GSE109637	Ben	KD	T 	Ctrl	KD			IP3R	
+GSE157622	Ben	KD	T 	siCTRL1	siNONO1	library kit:;cell line:		NONO	
+GSE157622	Ben	KD	T 	siCTRL1	siNONO2	library kit:;cell line:		NONO	
+GSE157622	Ben	KD	T 	siCTRL2	siNONO1	library kit:;cell line:		NONO	
+GSE157622	Ben	KD	T 	siCTRL2	siNONO2	library kit:;cell line:		NONO	
+GSE157622	Ben	KD	T 	siCTRL1	siSFPQ1	library kit:;cell line:		SFPQ	
+GSE157622	Ben	KD	T 	siCTRL1	siSFPQ2	library kit:;cell line:		SFPQ	
+GSE157622	Ben	KD	T 	siCTRL2	siSFPQ1	library kit:;cell line:		SFPQ	
+GSE157622	Ben	KD	T 	siCTRL2	siSFPQ2	library kit:;cell line:		SFPQ	
+GSE256463	Ben	N							
+GSE181638	Ben	D	T 	untreated	aspirin			aspirin	
+GSE225134	Ben	N							
+GSE149966	Ben	KD	T 	NT	siID4			ID4	
+GSE85088	Ben	KD	T 	siNT	siCTCF	treatment:		CTCF	
+GSE85088	Ben	D	T 	0h	3h	transfection:		Estrogen	
+GSE115386	Ben	D	T 	control	Etoposide			Etoposide	
+GSE115386	Ben	D	T 	control	Imatinib mesylate			Imatinib mesylate	
+GSE115386	Ben	D	T 	control	Cisplatinum			Cisplatinum	
+GSE217769	Ben(Q)	KO	T 	control	KO			p53	p53 is an alias for TP53
+GSE93294	Ben	KO	T 	Embryonic_control	Lola-Null			Lola	
+GSE93294	Ben	KO	T 	control_replicate	lola-F			Lola	lola-F is an isoform of Lola, study is knocking out lola-F as Lola F stop is a truncating full LOF mutatioj
+GSE93294	Ben	OM	T 	Control_adult	Lola_O			Lola	lola-O is an isoform of Lola, study is mutating lola-O
+GSE116779	Ben	D	T 	GS control	GS RA24h			retinoic acid	
+GSE116779	Ben	D	T 	GS control	GS RA72h			retinoic acid	
+GSE116779	Ben	D	T 	GS control	GS RA120h			retinoic acid	
+GSE116779	Ben	D	T 	ES control	ES RA120h			retinoic acid	
+GSE101312	Ben	N							
+GSE118569	Ben	N							
+GSE224972	Ben	N							
+GSE219022	Ben	N							
+GSE112973	Ben(Q)	N							No valid comparisons within a single sample type and abbreviation
+GSE244488	Ben	N							
+GSE176688	Ben	N							
+GSE122405	Ben	KO	T 	+/+	F/F			Dnmt3a	
+GSE190034	Ben(Q)	KO	T 	RERE	BRE	time point:		Arntl	Alias for gene BMAL1
+GSE207183	Ben	N							
+GSE224420	Ben	KD	G	GSM7022005	GSM7022006			ROR2	No valid control sample for other experiments
+GSE193801	Ben(Q)	OM	T 	wild type	S55L+/-	age:			Gene name CHCHD10 only mentioned in study description
+GSE57926	Ben	KO	T 	WT	KO		GROseq	RBFox2	
+GSE57926	Ben	KD	T 	NC	siRBFox2			RBFox2	
+GSE57926	Ben	KD	T 	NC	siSUZ12			SUZ12	
+GSE57926	Ben	KO	T 	WT	KO	age:	RASLseq	RBFox2	
+GSE57926	Ben	KO	T 	WT	KO		MAPS	RBFox2	
+GSE114037	Ben	N							
+GSE193894	Ben	N							Two differences between control and experimental samples
+GSE172181	Ben	D	T 	DMSO	Doxorubicin			Doxorubicin	
+GSE172181	Ben	D	T 	DMSO	Bortezomib			Bortezomib	
+GSE172181	Ben	D	T 	DMSO	Tegretol			Tegretol	
+GSE172181	Ben	D	T 	DMSO	WZ8040			WZ8040	
+GSE172181	Ben	D	T 	DMSO	PHA-767491			PHA-767491	
+GSE172181	Ben	D	T 	DMSO	BI 2536			BI 2536	
+GSE172181	Ben	D	T 	DMSO	Daunorubicin			Daunorubicin	
+GSE172181	Ben	D	T 	DMSO	Nitrendipine			Nitrendipine	
+GSE172181	Ben	D	T 	DMSO	Solifenacin			Solifenacin	
+GSE219750	Ben	N							
+GSE197555	Ben	D	T 	DMSO	trame	cell line:		trametinib	
+GSE247238	Ben	N							
+GSE152556	Ben	Not RNA-seq							
+GSE179495	Ben(Q)	D	T 	Control	LCO		1 mg	LCO	Specified as Lithium Cobalt Oxide in study description
+GSE179495	Ben(Q)	D	T 	Control	LCO		10 mg	LCO	Specified as Lithium Cobalt Oxide in study description
+GSE102352	Ben	N							
+GSE167506	Ben	N							
+GSE129611	Ben	N							
+GSE184639	Ben	N							
+GSE111004	Ben	KO	T 	Wild type	Mutated	shRNA:		sa2	Alias for STAG2; Complete LOF mutation
+GSE111004	Ben	KD	T 	Control	SA1	sa2 mutation:		SA1	Alias for STAG1
+GSE40050	Ben	D	T 	EtOH vehicle treated	DHT treated	cell line:		DHT	Drug specified as dihydrotestosterone in pubmed article
+GSE40050	Ben	KD	T 	non-specific	AR siRNA			AR	androgen receptor
+GSE111570	Ben	N							
+GSE229698	Ben	KO	T 	WT	GLOko			TRAF7	
+GSE229698	Ben	KO	T 	WT	ECko			TRAF7	
+GSE229698	Ben	KO	T 	WT	EChet			TRAF7	
+GSE229698	Ben	KO	T 	EChet	ECko			TRAF7	
+GSE119775	Ben	KO	T 	WT	TAZKo	condition:		TAZ	alias for TAFAZZIN
+GSE87344	Ben	KO	T 	wild type	Lmnb1-/-			Lmnb1	
+GSE136107	Ben	N							
+GSE78157	Ben(Q)	KO	T 	Wildtype	hH1			hH1	gene deletion
+GSE228240	Ben(Q)	KO	G	GSM7117597	GSM7117598			H1.2	Alias for gene H1-2
+GSE228240	Ben(Q)	KO	G	GSM7117597	GSM7117599			H1.3	Alias for gene H1-3
+GSE228240	Ben(Q)	KO	G	GSM7117599	GSM7117600			H1.0&H1.5	Double gene knockout, none isolated; Aliases for gene H1-0 and H1-5
+GSE228240	Ben(Q)	KO	G	GSM7117600	GSM7117601;GSM7117607			H1.4	Alias for gene H1-4
+GSE228240	Ben(Q)	OE	G	GSM7117598	GSM7117602			H1.3	Alias for gene H1-3
+GSE228240	Ben(Q)	OE	G	GSM7117597	GSM7117605			H1.2	Alias for gene H1-2
+GSE228240	Ben(Q)	OE	G	GSM7117605	GSM7117606			H1.3	Alias for gene H1-3
+GSE228240	Ben(Q)	KO	G	GSM7136743	GSM7136744			H1.2	Alias for gene H1-2
+GSE228240	Ben(Q)	KO	G	GSM7136744	GSM7136745			H1.3	Alias for gene H1-3
+GSE228240	Ben(Q)	KO	G	GSM7136745	GSM7136746			H1.0&H1.5	Double gene knockout, none isolated; Aliases for gene H1-0 and H1-5
+GSE228240	Ben(Q)	KO	G	GSM7136746	GSM7136747			H1.4	Alias for gene H1-4
+GSE114222	Ben	N							
+GSE240813	Ben	N							
+GSE209820	Ben	KO	T 	wild-type	mH2A1 KO		Mock	mH2A1	Alias for MACROH2A1
+GSE209820	Ben	KO	T 	wild-type	mH2A1 KO		4 hpi	mH2A1	Alias for MACROH2A1
+GSE209820	Ben	KO	T 	wild-type	mH2A1 KO		8 hpi	mH2A1	Alias for MACROH2A1
+GSE209820	Ben	KO	T 	wild-type	mH2A1 KO		12 hpi	mH2A1	Alias for MACROH2A1
+GSE220491	Ben	OM	T 	Col-0	cnd1-3			cnd1	
+GSE168143	Ben	KO	T 	+/+	-/-			IL-4Rα	Alias for IL4R
+GSE159009	Ben	N							
+GSE133458	Ben	N							
+GSE113030	Ben	OM	T 	B6	Ly5.1		naive		Gene name not mentioned in sample description, alias NKp46 for gene Ncr1 mentioned in study description
+GSE113030	Ben	OM	T 	B6	Ly5.1		d7		Gene name not mentioned in sample description, alias NKp46 for gene Ncr1 mentioned in study description
+GSE196176	Ben	N							
+GSE229394	Ben	N							
+GSE78489	Ben	N							
+GSE160662	Ben	N							
+GSE115605	Ben	N							
+GSE112567	Ben	N							Different types of CAR t-cells
+GSE131411	Ben	N							
+GSE197972	Ben	D	T 	control	12wks high salt	tissue:		high salt	
+GSE185641	Ben(Q)	N							Saline-alkaline water not a valid drug
+GSE122393	Ben	KO	T 	WT	KO			HDAC3	
+GSE150646	Ben	OE	T 	wildtype	transgene overexpressing	age:		SNCA	
+GSE122735	Ben	D	T 	control	JQ1	activation:;donor:		JQ1	
+GSE111080	Ben	KD	T 	+/+	neo/neo	tissue:		Slc39a8	
+GSE108077	Ben	N							
+GSE158697	Ben	N							
+GSE189186	Ben	D	T 	DMSO	Olaparib	cell line:		Olaparib	
+GSE183924	Ben	N							
+GSE259221	Ben	KD	T 	non targeting shRNA	targeting EVI1 gene (#16)			EVI1	alias for MECOM
+GSE259221	Ben	KD	T 	non targeting shRNA	targeting EVI1 gene (#18)			EVI1	alias for MECOM
+GSE142378	Ben(Q)	OE	T 	+48h NO Dox	+48hours Dox&iFlag.Hoxc6			Hoxc6	
+GSE142378	Ben(Q)	OE	T 	+48h NO Dox	+48hours Dox&iFlag.Hoxc8			Hoxc8	
+GSE142378	Ben(Q)	OE	T 	+48h NO Dox	+48hours Dox&iFlag.Hoxc9			Hoxc9	
+GSE142378	Ben(Q)	OE	T 	+48h NO Dox	+48hours Dox&iFlag.Hoxc10			Hoxc10	
+GSE132882	Ben	N							
+GSE210261	Ben	N							
+GSE115177	Ben	OM	T 	WT	TG		3M	SNRNP70	Inserting a perturbed copy of the gene
+GSE115177	Ben	OM	T 	WT	TG		12M	SNRNP70	Inserting a perturbed copy of the gene
+GSE158937	Ben	N							
+GSE45657	Ben	N							
+GSE199701	Ben(G)(Q)	OM	T 	Jurkat-WT	Jurkat-SV	agent:			The following is only mentioned in pubmed article: Enhancer region of gene BCL11B translocated to promoter region of TLX3 gene on chromosome 5.
+GSE199701	Ben(G)(Q)	OM	T 	Jurkat-WT	Jurkat-SV	agent:			The following is only mentioned in pubmed article: Enhancer region of gene BCL11B translocated to promoter region of TLX3 gene on chromosome 5.
+GSE199701	Ben(G)(Q)	D	T 	DMSO	5-aza-dC	cell line:		5-aza-dC	
+GSE199701	Ben(G)(Q)	KD	T 	shRen	shTLX3			TLX3	
+GSE199701	Ben(G)(Q)	OE	T 	control	TLX3-OE			TLX3	
+GSE139371	Ben	KO	T 	F/F	KO	cell type:		Hamp	
+GSE104462	Ben	D	T 	None	Erastin			Erastin	
+GSE104462	Ben	D	T 	None	Ferrostatin-1			Ferrostatin-1	
+GSE203247	Ben	D	T 	DMSO	SR-3420			SR-3420	
+GSE66911	Ben	N							Expresses a murine gene in Yeast
+GSE225701	Ben	D	T 	without calcium palmitate	with 0.01 mg/mL calcium palmitate		16H	calcium palmitate	
+GSE225701	Ben	D	T 	without calcium palmitate	with 0.01 mg/mL calcium palmitate		5H	calcium palmitate	
+GSE197210	Ben	KD	T 	scrambled shRNA	FOXA2			FOXA2	
+GSE116181	Ben	KO	T 	WT	KO			Tet2	
+GSE168774	Ben	N							
+GSE119393	Ben	KD	T 	si-CTRL	si-OCT2	treatment:		OCT2	
+GSE119393	Ben	D	T 	no treatment	R848	silencing:		R848	
+GSE222446	Ben	N							
+GSE158979	Ben	KO	T 	WT	Tex11PM/Y			Tex11	Complete LOF
+GSE200516	Ben	N							
+GSE178867	Ben	N							No control samples in this series
+GSE249232	Ben	N							
+GSE99837	Ben	D	T 	undifferentiated	GMCSF+IL4		2 days	GM-CSF&IL-4	Double drug treatment
+GSE99837	Ben	D	T 	undifferentiated	GMCSF+IL4		1 day	GM-CSF&IL-4	Double drug treatment
+GSE99837	Ben	KO	T 	WT	KO	treatment:		Nr4a3	
