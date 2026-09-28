@@ -16,6 +16,8 @@ train_json = sys.argv[1]
 out_dir = sys.argv[2]
 ckpt = sys.argv[3]
 steps = int(sys.argv[4])
+epochs = int(sys.argv[5])
+batchsize= int(sys.argv[6])
 
 my_dataset = load_dataset('json', data_files={'train':train_json})
 
@@ -44,8 +46,8 @@ model.eval()
 training_args = TrainingArguments(
     output_dir=out_dir,
     learning_rate=2e-5,
-    per_device_train_batch_size=1,
-    num_train_epochs=2,
+    per_device_train_batch_size=batchsize,
+    num_train_epochs=epochs,
     weight_decay=0.01,
     evaluation_strategy="no",
     #save_strategy="no",
